@@ -1,0 +1,1539 @@
+event_id,timestamp,equipment_id,event_type,details
+3,2023-01-01 07:27:00.000000,MCH001,START,Initial startup
+57,2023-01-07 13:49:09.977819,MCH001,ALARM,Pre-stop alarm: Other Breakdown
+58,2023-01-07 13:49:09.977819,MCH001,STOP,Stop: Other Breakdown
+59,2023-01-07 15:12:38.999355,MCH001,START,Restart after Unplanned - Breakdown
+112,2023-01-27 01:48:44.335161,MCH001,ALARM,Pre-stop alarm: Mechanical Failure
+113,2023-01-27 01:48:44.335161,MCH001,STOP,Stop: Mechanical Failure
+114,2023-01-27 08:42:55.474596,MCH001,START,Restart after Unplanned - Breakdown
+115,2023-01-27 11:21:03.929124,MCH001,ALARM,Pre-stop alarm: Other Breakdown
+116,2023-01-27 11:21:03.929124,MCH001,STOP,Stop: Other Breakdown
+119,2023-01-27 15:34:56.538267,MCH001,START,Restart after Unplanned - Breakdown
+145,2023-02-04 09:37:11.406179,MCH001,ALARM,Pre-stop alarm: Hydraulic Leak
+146,2023-02-04 09:37:11.406179,MCH001,STOP,Stop: Hydraulic Leak
+147,2023-02-04 12:24:47.654128,MCH001,START,Restart after Unplanned - Breakdown
+151,2023-02-05 10:37:27.171772,MCH001,STOP,Stop: Tooling Issue
+152,2023-02-05 10:49:51.149697,MCH001,START,Restart after Unplanned - Process
+153,2023-02-05 12:52:10.135506,MCH001,ALARM,Pre-stop alarm: Other Breakdown
+154,2023-02-05 12:52:10.135506,MCH001,STOP,Stop: Other Breakdown
+155,2023-02-05 15:01:03.304757,MCH001,START,Restart after Unplanned - Breakdown
+247,2023-03-01 13:45:30.628651,MCH001,STOP,Stop: Product Changeover
+248,2023-03-01 14:17:45.983862,MCH001,START,Restart after Changeover
+249,2023-03-02 12:12:29.451216,MCH001,STOP,Stop: Tooling Issue
+250,2023-03-02 12:16:01.945239,MCH001,START,Restart after Unplanned - Process
+259,2023-03-03 16:36:02.423481,MCH001,STOP,Stop: Material Shortage
+260,2023-03-03 16:37:25.721383,MCH001,START,Restart after Unplanned - Process
+271,2023-03-06 08:56:30.367575,MCH001,STOP,Stop: Tooling Issue
+272,2023-03-06 10:20:22.880375,MCH001,START,Restart after Unplanned - Process
+277,2023-03-08 04:29:52.679690,MCH001,STOP,Stop: Quality Issue
+278,2023-03-08 06:00:15.930210,MCH001,START,Restart after Unplanned - Process
+303,2023-03-14 13:18:23.185048,MCH001,ALARM,Pre-stop alarm: Other Breakdown
+304,2023-03-14 13:18:23.185048,MCH001,STOP,Stop: Other Breakdown
+305,2023-03-14 14:14:07.199177,MCH001,START,Restart after Unplanned - Breakdown
+306,2023-03-14 16:53:41.456902,MCH001,STOP,Stop: Tooling Issue
+307,2023-03-14 17:05:42.140598,MCH001,START,Restart after Unplanned - Process
+308,2023-03-15 02:45:36.016733,MCH001,ALARM,Pre-stop alarm: Electrical Fault
+309,2023-03-15 02:45:36.016733,MCH001,STOP,Stop: Electrical Fault
+310,2023-03-15 04:53:02.623465,MCH001,START,Restart after Unplanned - Breakdown
+386,2023-04-03 14:21:57.925658,MCH001,ALARM,Pre-stop alarm: Sensor Error
+387,2023-04-03 14:21:57.925658,MCH001,STOP,Stop: Sensor Error
+390,2023-04-03 20:10:58.161025,MCH001,START,Restart after Unplanned - Breakdown
+393,2023-04-07 08:59:30.046628,MCH001,STOP,Stop: Material Shortage
+394,2023-04-07 09:39:55.543874,MCH001,START,Restart after Unplanned - Process
+458,2023-04-21 23:46:43.709661,MCH001,ALARM,Pre-stop alarm: Other Breakdown
+459,2023-04-21 23:46:43.709661,MCH001,STOP,Stop: Other Breakdown
+460,2023-04-22 01:25:32.893702,MCH001,START,Restart after Unplanned - Breakdown
+463,2023-04-23 16:04:08.912390,MCH001,STOP,Stop: Operator Error
+464,2023-04-23 16:45:33.174067,MCH001,START,Restart after Unplanned - Process
+472,2023-04-24 18:04:26.303610,MCH001,ALARM,Pre-stop alarm: Mechanical Failure
+473,2023-04-24 18:04:26.303610,MCH001,STOP,Stop: Mechanical Failure
+474,2023-04-24 18:34:59.848968,MCH001,START,Restart after Unplanned - Breakdown
+475,2023-04-25 10:59:28.392800,MCH001,STOP,Stop: Routine Check
+478,2023-04-25 19:59:18.096245,MCH001,START,Restart after Planned Maintenance
+500,2023-05-02 09:16:34.180353,MCH001,ALARM,Pre-stop alarm: Mechanical Failure
+501,2023-05-02 09:16:34.180353,MCH001,STOP,Stop: Mechanical Failure
+504,2023-05-02 14:37:58.782579,MCH001,START,Restart after Unplanned - Breakdown
+515,2023-05-04 15:55:59.784886,MCH001,ALARM,Pre-stop alarm: Hydraulic Leak
+516,2023-05-04 15:55:59.784886,MCH001,STOP,Stop: Hydraulic Leak
+518,2023-05-04 22:44:39.250498,MCH001,START,Restart after Unplanned - Breakdown
+525,2023-05-05 20:56:53.797343,MCH001,STOP,Stop: Setup Adjustment
+526,2023-05-05 21:27:33.910754,MCH001,START,Restart after Changeover
+530,2023-05-07 07:59:31.418615,MCH001,ALARM,Pre-stop alarm: Mechanical Failure
+531,2023-05-07 07:59:31.418615,MCH001,STOP,Stop: Mechanical Failure
+532,2023-05-07 15:32:56.485414,MCH001,START,Restart after Unplanned - Breakdown
+538,2023-05-10 15:39:07.750309,MCH001,ALARM,Pre-stop alarm: Electrical Fault
+539,2023-05-10 15:39:07.750309,MCH001,STOP,Stop: Electrical Fault
+540,2023-05-10 17:03:07.564614,MCH001,START,Restart after Unplanned - Breakdown
+595,2023-05-24 20:50:29.078012,MCH001,ALARM,Pre-stop alarm: Mechanical Failure
+596,2023-05-24 20:50:29.078012,MCH001,STOP,Stop: Mechanical Failure
+598,2023-05-24 22:01:09.441332,MCH001,START,Restart after Unplanned - Breakdown
+614,2023-05-28 01:24:50.071964,MCH001,STOP,Stop: Setup Adjustment
+615,2023-05-28 01:57:35.676892,MCH001,START,Restart after Changeover
+624,2023-05-31 12:52:02.894912,MCH001,ALARM,Pre-stop alarm: Electrical Fault
+625,2023-05-31 12:52:02.894912,MCH001,STOP,Stop: Electrical Fault
+626,2023-05-31 14:48:06.640521,MCH001,START,Restart after Unplanned - Breakdown
+703,2023-06-18 12:56:00.150381,MCH001,ALARM,Pre-stop alarm: Other Breakdown
+704,2023-06-18 12:56:00.150381,MCH001,STOP,Stop: Other Breakdown
+708,2023-06-18 16:47:23.845317,MCH001,START,Restart after Unplanned - Breakdown
+722,2023-06-21 06:15:16.972134,MCH001,ALARM,Pre-stop alarm: Hydraulic Leak
+723,2023-06-21 06:15:16.972134,MCH001,STOP,Stop: Hydraulic Leak
+724,2023-06-21 09:38:26.903356,MCH001,START,Restart after Unplanned - Breakdown
+739,2023-06-24 13:52:24.880639,MCH001,STOP,Stop: Routine Check
+740,2023-06-24 20:40:04.092091,MCH001,START,Restart after Planned Maintenance
+744,2023-06-25 21:48:56.062790,MCH001,STOP,Stop: Operator Error
+745,2023-06-25 23:15:34.131349,MCH001,START,Restart after Unplanned - Process
+777,2023-07-04 01:40:56.664671,MCH001,ALARM,Pre-stop alarm: Mechanical Failure
+778,2023-07-04 01:40:56.664671,MCH001,STOP,Stop: Mechanical Failure
+779,2023-07-04 08:44:10.180934,MCH001,START,Restart after Unplanned - Breakdown
+822,2023-07-18 16:13:44.106163,MCH001,STOP,Stop: Software Update
+829,2023-07-18 22:42:17.974853,MCH001,START,Restart after Planned Maintenance
+841,2023-07-20 02:24:55.810951,MCH001,STOP,Stop: Tooling Issue
+842,2023-07-20 04:14:01.253733,MCH001,START,Restart after Unplanned - Process
+846,2023-07-21 05:23:03.539546,MCH001,ALARM,Pre-stop alarm: Hydraulic Leak
+847,2023-07-21 05:23:03.539546,MCH001,STOP,Stop: Hydraulic Leak
+848,2023-07-21 05:38:58.808988,MCH001,START,Restart after Unplanned - Breakdown
+854,2023-07-22 04:31:44.559210,MCH001,STOP,Stop: Setup Adjustment
+855,2023-07-22 05:00:51.168453,MCH001,START,Restart after Changeover
+899,2023-08-04 13:16:07.830421,MCH001,ALARM,Pre-stop alarm: Other Breakdown
+900,2023-08-04 13:16:07.830421,MCH001,STOP,Stop: Other Breakdown
+901,2023-08-04 13:21:39.184441,MCH001,START,Restart after Unplanned - Breakdown
+949,2023-08-15 16:05:31.171008,MCH001,STOP,Stop: Tooling Issue
+950,2023-08-15 16:13:38.937830,MCH001,START,Restart after Unplanned - Process
+1000,2023-08-24 17:04:13.609958,MCH001,STOP,Stop: Operator Error
+1001,2023-08-24 20:39:34.674650,MCH001,START,Restart after Unplanned - Process
+1002,2023-08-25 11:41:46.725528,MCH001,STOP,Stop: Material Shortage
+1003,2023-08-25 12:10:57.647614,MCH001,START,Restart after Unplanned - Process
+1004,2023-08-25 22:09:32.766410,MCH001,ALARM,Pre-stop alarm: Mechanical Failure
+1005,2023-08-25 22:09:32.766410,MCH001,STOP,Stop: Mechanical Failure
+1006,2023-08-25 23:10:42.720262,MCH001,START,Restart after Unplanned - Breakdown
+1026,2023-09-01 05:08:12.735570,MCH001,STOP,Stop: Tooling Issue
+1027,2023-09-01 05:10:02.901992,MCH001,START,Restart after Unplanned - Process
+1069,2023-09-12 12:24:48.334715,MCH001,STOP,Stop: Setup Adjustment
+1070,2023-09-12 12:53:16.978186,MCH001,START,Restart after Changeover
+1103,2023-09-21 19:03:44.429049,MCH001,ALARM,Pre-stop alarm: Mechanical Failure
+1104,2023-09-21 19:03:44.429049,MCH001,STOP,Stop: Mechanical Failure
+1105,2023-09-21 19:50:41.814588,MCH001,START,Restart after Unplanned - Breakdown
+1125,2023-09-25 00:49:27.571580,MCH001,ALARM,Pre-stop alarm: Other Breakdown
+1126,2023-09-25 00:49:27.571580,MCH001,STOP,Stop: Other Breakdown
+1129,2023-09-25 01:54:30.527225,MCH001,START,Restart after Unplanned - Breakdown
+1185,2023-10-08 07:43:31.468756,MCH001,ALARM,Pre-stop alarm: Hydraulic Leak
+1186,2023-10-08 07:43:31.468756,MCH001,STOP,Stop: Hydraulic Leak
+1187,2023-10-08 08:17:45.300863,MCH001,START,Restart after Unplanned - Breakdown
+1201,2023-10-10 08:41:37.542755,MCH001,ALARM,Pre-stop alarm: Mechanical Failure
+1202,2023-10-10 08:41:37.542755,MCH001,STOP,Stop: Mechanical Failure
+1203,2023-10-10 11:08:21.934676,MCH001,START,Restart after Unplanned - Breakdown
+1220,2023-10-16 12:49:14.759691,MCH001,STOP,Stop: Material Shortage
+1221,2023-10-16 14:30:37.812528,MCH001,START,Restart after Unplanned - Process
+1279,2023-10-29 04:24:24.598296,MCH001,ALARM,Pre-stop alarm: Sensor Error
+1280,2023-10-29 04:24:24.598296,MCH001,STOP,Stop: Sensor Error
+1282,2023-10-29 07:05:27.827440,MCH001,START,Restart after Unplanned - Breakdown
+1285,2023-10-30 21:35:48.689847,MCH001,STOP,Stop: Operator Error
+1286,2023-10-30 21:43:17.400640,MCH001,START,Restart after Unplanned - Process
+1289,2023-11-01 17:23:34.378311,MCH001,STOP,Stop: Setup Adjustment
+1290,2023-11-01 17:52:36.042550,MCH001,START,Restart after Changeover
+1314,2023-11-05 19:02:13.463272,MCH001,STOP,Stop: Material Shortage
+1317,2023-11-05 21:14:25.325299,MCH001,START,Restart after Unplanned - Process
+1320,2023-11-07 06:02:47.352448,MCH001,STOP,Stop: Software Update
+1321,2023-11-07 14:47:42.967642,MCH001,START,Restart after Planned Maintenance
+1338,2023-11-11 16:21:30.371601,MCH001,STOP,Stop: Tooling Issue
+1339,2023-11-11 17:45:25.132097,MCH001,START,Restart after Unplanned - Process
+1374,2023-11-22 10:57:48.750119,MCH001,ALARM,Pre-stop alarm: Sensor Error
+1375,2023-11-22 10:57:48.750119,MCH001,STOP,Stop: Sensor Error
+1376,2023-11-22 12:15:41.754731,MCH001,START,Restart after Unplanned - Breakdown
+1378,2023-11-23 02:02:17.868980,MCH001,ALARM,Pre-stop alarm: Hydraulic Leak
+1379,2023-11-23 02:02:17.868980,MCH001,STOP,Stop: Hydraulic Leak
+1380,2023-11-23 04:36:24.026422,MCH001,START,Restart after Unplanned - Breakdown
+1475,2023-12-14 13:44:22.809501,MCH001,ALARM,Pre-stop alarm: Other Breakdown
+1476,2023-12-14 13:44:22.809501,MCH001,STOP,Stop: Other Breakdown
+1477,2023-12-14 13:51:44.794199,MCH001,START,Restart after Unplanned - Breakdown
+1524,2023-12-27 20:08:21.803862,MCH001,ALARM,Pre-stop alarm: Sensor Error
+1525,2023-12-27 20:08:21.803862,MCH001,STOP,Stop: Sensor Error
+1526,2023-12-28 06:18:44.350169,MCH001,START,Restart after Unplanned - Breakdown
+1527,2023-12-28 07:59:04.277042,MCH001,ALARM,Pre-stop alarm: Sensor Error
+1528,2023-12-28 07:59:04.277042,MCH001,STOP,Stop: Sensor Error
+1529,2023-12-28 10:34:21.755645,MCH001,START,Restart after Unplanned - Breakdown
+8,2023-01-01 07:48:00.000000,MCH002,START,Initial startup
+32,2023-01-04 23:26:21.036243,MCH002,ALARM,Pre-stop alarm: Sensor Error
+33,2023-01-04 23:26:21.036243,MCH002,STOP,Stop: Sensor Error
+34,2023-01-05 02:02:18.133178,MCH002,START,Restart after Unplanned - Breakdown
+142,2023-02-04 02:07:22.270124,MCH002,STOP,Stop: Setup Adjustment
+143,2023-02-04 02:36:12.280282,MCH002,START,Restart after Changeover
+148,2023-02-04 13:33:55.109058,MCH002,ALARM,Pre-stop alarm: Hydraulic Leak
+149,2023-02-04 13:33:55.109058,MCH002,STOP,Stop: Hydraulic Leak
+150,2023-02-04 17:13:14.941932,MCH002,START,Restart after Unplanned - Breakdown
+176,2023-02-11 12:07:59.420270,MCH002,STOP,Stop: Calibration
+177,2023-02-11 19:16:54.218666,MCH002,START,Restart after Planned Maintenance
+188,2023-02-14 23:29:12.248543,MCH002,ALARM,Pre-stop alarm: Sensor Error
+189,2023-02-14 23:29:12.248543,MCH002,STOP,Stop: Sensor Error
+190,2023-02-15 02:33:20.036269,MCH002,START,Restart after Unplanned - Breakdown
+211,2023-02-18 19:11:03.759302,MCH002,ALARM,Pre-stop alarm: Hydraulic Leak
+212,2023-02-18 19:11:03.759302,MCH002,STOP,Stop: Hydraulic Leak
+214,2023-02-19 05:04:28.590306,MCH002,START,Restart after Unplanned - Breakdown
+256,2023-03-03 15:11:08.732242,MCH002,ALARM,Pre-stop alarm: Mechanical Failure
+257,2023-03-03 15:11:08.732242,MCH002,STOP,Stop: Mechanical Failure
+258,2023-03-03 15:46:29.677844,MCH002,START,Restart after Unplanned - Breakdown
+311,2023-03-15 06:55:17.465260,MCH002,ALARM,Pre-stop alarm: Mechanical Failure
+312,2023-03-15 06:55:17.465260,MCH002,STOP,Stop: Mechanical Failure
+313,2023-03-15 09:26:08.580871,MCH002,START,Restart after Unplanned - Breakdown
+322,2023-03-18 17:09:37.890777,MCH002,STOP,Stop: Material Shortage
+323,2023-03-18 17:22:57.946254,MCH002,START,Restart after Unplanned - Process
+340,2023-03-20 23:30:20.795383,MCH002,ALARM,Pre-stop alarm: Other Breakdown
+341,2023-03-20 23:30:20.795383,MCH002,STOP,Stop: Other Breakdown
+342,2023-03-21 02:54:24.706899,MCH002,START,Restart after Unplanned - Breakdown
+357,2023-03-23 07:09:52.901677,MCH002,ALARM,Pre-stop alarm: Electrical Fault
+358,2023-03-23 07:09:52.901677,MCH002,STOP,Stop: Electrical Fault
+359,2023-03-23 07:55:56.748683,MCH002,START,Restart after Unplanned - Breakdown
+367,2023-03-25 12:41:47.873402,MCH002,STOP,Stop: Material Shortage
+368,2023-03-25 13:09:41.909085,MCH002,START,Restart after Unplanned - Process
+380,2023-03-31 06:07:46.218699,MCH002,STOP,Stop: Material Shortage
+381,2023-03-31 06:53:22.702190,MCH002,START,Restart after Unplanned - Process
+384,2023-04-01 18:08:09.006215,MCH002,STOP,Stop: Product Changeover
+385,2023-04-01 18:38:21.205894,MCH002,START,Restart after Changeover
+404,2023-04-09 15:08:48.616713,MCH002,ALARM,Pre-stop alarm: Hydraulic Leak
+405,2023-04-09 15:08:48.616713,MCH002,STOP,Stop: Hydraulic Leak
+406,2023-04-09 18:02:35.023413,MCH002,START,Restart after Unplanned - Breakdown
+456,2023-04-21 20:04:21.696839,MCH002,STOP,Stop: Setup Adjustment
+457,2023-04-21 20:31:51.546115,MCH002,START,Restart after Changeover
+593,2023-05-24 19:37:33.610816,MCH002,ALARM,Pre-stop alarm: Hydraulic Leak
+594,2023-05-24 19:37:33.610816,MCH002,STOP,Stop: Hydraulic Leak
+597,2023-05-24 21:26:39.493316,MCH002,START,Restart after Unplanned - Breakdown
+599,2023-05-24 23:37:15.312670,MCH002,ALARM,Pre-stop alarm: Other Breakdown
+600,2023-05-24 23:37:15.312670,MCH002,STOP,Stop: Other Breakdown
+601,2023-05-25 00:47:30.986171,MCH002,START,Restart after Unplanned - Breakdown
+608,2023-05-27 04:32:42.129475,MCH002,ALARM,Pre-stop alarm: Mechanical Failure
+609,2023-05-27 04:32:42.129475,MCH002,STOP,Stop: Mechanical Failure
+610,2023-05-27 05:15:10.946461,MCH002,START,Restart after Unplanned - Breakdown
+616,2023-05-28 03:04:16.482194,MCH002,STOP,Stop: Operator Error
+618,2023-05-28 04:44:18.231765,MCH002,START,Restart after Unplanned - Process
+620,2023-05-29 10:52:50.197846,MCH002,STOP,Stop: Quality Issue
+621,2023-05-29 11:06:55.806182,MCH002,START,Restart after Unplanned - Process
+657,2023-06-05 14:16:22.227455,MCH002,STOP,Stop: Routine Check
+658,2023-06-05 21:29:57.835274,MCH002,START,Restart after Planned Maintenance
+666,2023-06-08 00:38:05.358490,MCH002,ALARM,Pre-stop alarm: Mechanical Failure
+667,2023-06-08 00:38:05.358490,MCH002,STOP,Stop: Mechanical Failure
+669,2023-06-08 03:09:55.901726,MCH002,START,Restart after Unplanned - Breakdown
+675,2023-06-08 18:29:43.331035,MCH002,ALARM,Pre-stop alarm: Sensor Error
+676,2023-06-08 18:29:43.331035,MCH002,STOP,Stop: Sensor Error
+677,2023-06-08 19:18:54.121499,MCH002,START,Restart after Unplanned - Breakdown
+679,2023-06-09 07:31:16.056118,MCH002,STOP,Stop: Product Changeover
+682,2023-06-09 08:03:59.537172,MCH002,START,Restart after Changeover
+701,2023-06-16 16:49:16.136069,MCH002,STOP,Stop: Material Shortage
+702,2023-06-16 22:27:00.018571,MCH002,START,Restart after Unplanned - Process
+711,2023-06-19 12:47:45.824525,MCH002,ALARM,Pre-stop alarm: Mechanical Failure
+712,2023-06-19 12:47:45.824525,MCH002,STOP,Stop: Mechanical Failure
+716,2023-06-20 00:04:52.177788,MCH002,START,Restart after Unplanned - Breakdown
+728,2023-06-22 22:47:10.877404,MCH002,STOP,Stop: Setup Adjustment
+729,2023-06-22 23:16:55.576531,MCH002,START,Restart after Changeover
+748,2023-06-28 10:05:04.250150,MCH002,STOP,Stop: Material Shortage
+749,2023-06-28 11:39:53.468880,MCH002,START,Restart after Unplanned - Process
+753,2023-06-29 10:07:46.327442,MCH002,ALARM,Pre-stop alarm: Electrical Fault
+754,2023-06-29 10:07:46.327442,MCH002,STOP,Stop: Electrical Fault
+757,2023-06-29 13:37:13.669941,MCH002,START,Restart after Unplanned - Breakdown
+762,2023-07-01 14:31:01.921804,MCH002,STOP,Stop: Operator Error
+763,2023-07-01 15:07:36.184259,MCH002,START,Restart after Unplanned - Process
+766,2023-07-02 17:40:40.239123,MCH002,STOP,Stop: Quality Issue
+769,2023-07-02 20:20:09.966376,MCH002,START,Restart after Unplanned - Process
+775,2023-07-03 15:41:20.309594,MCH002,STOP,Stop: Tooling Issue
+776,2023-07-03 17:02:33.896245,MCH002,START,Restart after Unplanned - Process
+782,2023-07-05 02:19:38.635890,MCH002,ALARM,Pre-stop alarm: Electrical Fault
+783,2023-07-05 02:19:38.635890,MCH002,STOP,Stop: Electrical Fault
+785,2023-07-05 04:13:56.305305,MCH002,START,Restart after Unplanned - Breakdown
+789,2023-07-07 08:04:00.625050,MCH002,STOP,Stop: Material Shortage
+790,2023-07-07 09:03:14.008937,MCH002,START,Restart after Unplanned - Process
+791,2023-07-07 14:00:57.340221,MCH002,STOP,Stop: Operator Error
+792,2023-07-07 14:07:04.619429,MCH002,START,Restart after Unplanned - Process
+820,2023-07-18 13:41:35.247213,MCH002,ALARM,Pre-stop alarm: Sensor Error
+821,2023-07-18 13:41:35.247213,MCH002,STOP,Stop: Sensor Error
+825,2023-07-18 20:03:52.143640,MCH002,START,Restart after Unplanned - Breakdown
+838,2023-07-19 18:37:59.447314,MCH002,ALARM,Pre-stop alarm: Mechanical Failure
+839,2023-07-19 18:37:59.447314,MCH002,STOP,Stop: Mechanical Failure
+840,2023-07-19 21:46:28.489382,MCH002,START,Restart after Unplanned - Breakdown
+852,2023-07-21 16:50:54.675745,MCH002,STOP,Stop: Operator Error
+853,2023-07-21 16:52:58.841752,MCH002,START,Restart after Unplanned - Process
+873,2023-07-26 12:40:01.091800,MCH002,ALARM,Pre-stop alarm: Other Breakdown
+874,2023-07-26 12:40:01.091800,MCH002,STOP,Stop: Other Breakdown
+875,2023-07-26 15:03:41.190790,MCH002,START,Restart after Unplanned - Breakdown
+902,2023-08-04 23:37:26.118474,MCH002,ALARM,Pre-stop alarm: Hydraulic Leak
+903,2023-08-04 23:37:26.118474,MCH002,STOP,Stop: Hydraulic Leak
+904,2023-08-04 23:50:43.253685,MCH002,START,Restart after Unplanned - Breakdown
+916,2023-08-08 20:31:33.844120,MCH002,ALARM,Pre-stop alarm: Electrical Fault
+917,2023-08-08 20:31:33.844120,MCH002,STOP,Stop: Electrical Fault
+924,2023-08-09 23:21:25.870613,MCH002,START,Restart after Unplanned - Breakdown
+930,2023-08-11 04:32:44.824728,MCH002,ALARM,Pre-stop alarm: Electrical Fault
+931,2023-08-11 04:32:44.824728,MCH002,STOP,Stop: Electrical Fault
+932,2023-08-11 04:56:07.227754,MCH002,START,Restart after Unplanned - Breakdown
+937,2023-08-12 11:03:16.784252,MCH002,ALARM,Pre-stop alarm: Electrical Fault
+938,2023-08-12 11:03:16.784252,MCH002,STOP,Stop: Electrical Fault
+939,2023-08-13 00:39:08.634649,MCH002,START,Restart after Unplanned - Breakdown
+968,2023-08-20 00:03:33.837963,MCH002,ALARM,Pre-stop alarm: Other Breakdown
+969,2023-08-20 00:03:33.837963,MCH002,STOP,Stop: Other Breakdown
+971,2023-08-20 00:18:04.718078,MCH002,START,Restart after Unplanned - Breakdown
+981,2023-08-21 08:35:07.763913,MCH002,ALARM,Pre-stop alarm: Other Breakdown
+982,2023-08-21 08:35:07.763913,MCH002,STOP,Stop: Other Breakdown
+984,2023-08-21 10:41:40.992256,MCH002,START,Restart after Unplanned - Breakdown
+1028,2023-09-02 12:01:19.508950,MCH002,STOP,Stop: Product Changeover
+1029,2023-09-02 12:34:30.427525,MCH002,START,Restart after Changeover
+1032,2023-09-04 22:43:35.042968,MCH002,ALARM,Pre-stop alarm: Mechanical Failure
+1033,2023-09-04 22:43:35.042968,MCH002,STOP,Stop: Mechanical Failure
+1034,2023-09-04 22:49:28.644694,MCH002,START,Restart after Unplanned - Breakdown
+1048,2023-09-08 03:06:42.301028,MCH002,ALARM,Pre-stop alarm: Other Breakdown
+1049,2023-09-08 03:06:42.301028,MCH002,STOP,Stop: Other Breakdown
+1050,2023-09-08 04:22:40.026377,MCH002,START,Restart after Unplanned - Breakdown
+1088,2023-09-19 19:12:00.660375,MCH002,STOP,Stop: Setup Adjustment
+1089,2023-09-19 19:47:57.508973,MCH002,START,Restart after Changeover
+1132,2023-09-26 01:07:33.770616,MCH002,ALARM,Pre-stop alarm: Sensor Error
+1133,2023-09-26 01:07:33.770616,MCH002,STOP,Stop: Sensor Error
+1142,2023-09-26 13:00:18.413628,MCH002,START,Restart after Unplanned - Breakdown
+1233,2023-10-19 17:00:51.508199,MCH002,ALARM,Pre-stop alarm: Electrical Fault
+1234,2023-10-19 17:00:51.508199,MCH002,STOP,Stop: Electrical Fault
+1237,2023-10-19 23:41:11.254615,MCH002,START,Restart after Unplanned - Breakdown
+1245,2023-10-21 16:59:30.756245,MCH002,ALARM,Pre-stop alarm: Electrical Fault
+1246,2023-10-21 16:59:30.756245,MCH002,STOP,Stop: Electrical Fault
+1247,2023-10-21 17:52:56.673768,MCH002,START,Restart after Unplanned - Breakdown
+1296,2023-11-03 02:07:01.549262,MCH002,ALARM,Pre-stop alarm: Hydraulic Leak
+1297,2023-11-03 02:07:01.549262,MCH002,STOP,Stop: Hydraulic Leak
+1298,2023-11-03 03:33:13.324659,MCH002,START,Restart after Unplanned - Breakdown
+1335,2023-11-11 11:34:31.239543,MCH002,ALARM,Pre-stop alarm: Hydraulic Leak
+1336,2023-11-11 11:34:31.239543,MCH002,STOP,Stop: Hydraulic Leak
+1337,2023-11-11 11:49:28.993742,MCH002,START,Restart after Unplanned - Breakdown
+1344,2023-11-15 08:13:30.372447,MCH002,ALARM,Pre-stop alarm: Sensor Error
+1345,2023-11-15 08:13:30.372447,MCH002,STOP,Stop: Sensor Error
+1346,2023-11-15 09:47:44.849746,MCH002,START,Restart after Unplanned - Breakdown
+1386,2023-11-23 21:17:23.352133,MCH002,STOP,Stop: Setup Adjustment
+1387,2023-11-23 21:41:33.338096,MCH002,START,Restart after Changeover
+1389,2023-11-24 19:17:53.364551,MCH002,ALARM,Pre-stop alarm: Sensor Error
+1390,2023-11-24 19:17:53.364551,MCH002,STOP,Stop: Sensor Error
+1391,2023-11-25 02:19:46.323238,MCH002,START,Restart after Unplanned - Breakdown
+1450,2023-12-09 08:48:48.783177,MCH002,STOP,Stop: Quality Issue
+1451,2023-12-09 09:13:19.875771,MCH002,START,Restart after Unplanned - Process
+1452,2023-12-09 15:31:59.887428,MCH002,STOP,Stop: Quality Issue
+1453,2023-12-09 16:34:39.762714,MCH002,START,Restart after Unplanned - Process
+1460,2023-12-11 05:08:11.803642,MCH002,ALARM,Pre-stop alarm: Other Breakdown
+1461,2023-12-11 05:08:11.803642,MCH002,STOP,Stop: Other Breakdown
+1464,2023-12-11 12:27:54.744304,MCH002,START,Restart after Unplanned - Breakdown
+1472,2023-12-14 04:07:24.707760,MCH002,ALARM,Pre-stop alarm: Electrical Fault
+1473,2023-12-14 04:07:24.707760,MCH002,STOP,Stop: Electrical Fault
+1474,2023-12-14 05:28:43.600818,MCH002,START,Restart after Unplanned - Breakdown
+1478,2023-12-16 11:07:20.459631,MCH002,STOP,Stop: Tooling Issue
+1479,2023-12-16 11:22:46.662339,MCH002,START,Restart after Unplanned - Process
+1486,2023-12-17 09:16:38.567486,MCH002,STOP,Stop: Setup Adjustment
+1487,2023-12-17 09:41:59.765618,MCH002,START,Restart after Changeover
+1506,2023-12-22 08:22:39.536035,MCH002,STOP,Stop: Material Shortage
+1507,2023-12-22 09:07:49.374980,MCH002,START,Restart after Unplanned - Process
+1521,2023-12-27 12:35:04.264634,MCH002,ALARM,Pre-stop alarm: Hydraulic Leak
+1522,2023-12-27 12:35:04.264634,MCH002,STOP,Stop: Hydraulic Leak
+1523,2023-12-27 15:55:44.619085,MCH002,START,Restart after Unplanned - Breakdown
+9,2023-01-01 07:50:00.000000,MCH003,START,Initial startup
+26,2023-01-04 08:52:40.984693,MCH003,ALARM,Pre-stop alarm: Sensor Error
+27,2023-01-04 08:52:40.984693,MCH003,STOP,Stop: Sensor Error
+28,2023-01-04 09:22:16.302111,MCH003,START,Restart after Unplanned - Breakdown
+67,2023-01-11 16:09:32.818125,MCH003,ALARM,Pre-stop alarm: Electrical Fault
+68,2023-01-11 16:09:32.818125,MCH003,STOP,Stop: Electrical Fault
+69,2023-01-11 16:40:02.485919,MCH003,START,Restart after Unplanned - Breakdown
+110,2023-01-26 11:40:22.741368,MCH003,STOP,Stop: Operator Error
+111,2023-01-26 12:16:02.034208,MCH003,START,Restart after Unplanned - Process
+132,2023-02-03 01:13:15.700383,MCH003,ALARM,Pre-stop alarm: Hydraulic Leak
+133,2023-02-03 01:13:15.700383,MCH003,STOP,Stop: Hydraulic Leak
+139,2023-02-03 14:57:41.758201,MCH003,START,Restart after Unplanned - Breakdown
+162,2023-02-08 21:08:03.853749,MCH003,ALARM,Pre-stop alarm: Sensor Error
+163,2023-02-08 21:08:03.853749,MCH003,STOP,Stop: Sensor Error
+164,2023-02-08 22:57:38.726901,MCH003,START,Restart after Unplanned - Breakdown
+174,2023-02-10 20:48:07.497594,MCH003,STOP,Stop: Quality Issue
+175,2023-02-10 21:55:39.080291,MCH003,START,Restart after Unplanned - Process
+178,2023-02-12 07:38:11.441558,MCH003,ALARM,Pre-stop alarm: Hydraulic Leak
+179,2023-02-12 07:38:11.441558,MCH003,STOP,Stop: Hydraulic Leak
+180,2023-02-12 08:49:15.576651,MCH003,START,Restart after Unplanned - Breakdown
+206,2023-02-17 12:50:15.832071,MCH003,STOP,Stop: Tooling Issue
+207,2023-02-17 12:52:07.365698,MCH003,START,Restart after Unplanned - Process
+265,2023-03-05 04:47:28.592204,MCH003,ALARM,Pre-stop alarm: Electrical Fault
+266,2023-03-05 04:47:28.592204,MCH003,STOP,Stop: Electrical Fault
+267,2023-03-05 06:48:00.842862,MCH003,START,Restart after Unplanned - Breakdown
+268,2023-03-05 11:03:42.212718,MCH003,ALARM,Pre-stop alarm: Other Breakdown
+269,2023-03-05 11:03:42.212718,MCH003,STOP,Stop: Other Breakdown
+270,2023-03-05 14:45:55.028252,MCH003,START,Restart after Unplanned - Breakdown
+276,2023-03-08 00:51:11.958670,MCH003,STOP,Stop: Software Update
+282,2023-03-08 10:18:16.668859,MCH003,START,Restart after Planned Maintenance
+288,2023-03-09 08:25:46.752499,MCH003,ALARM,Pre-stop alarm: Sensor Error
+289,2023-03-09 08:25:46.752499,MCH003,STOP,Stop: Sensor Error
+291,2023-03-09 08:43:21.383470,MCH003,START,Restart after Unplanned - Breakdown
+292,2023-03-10 22:23:03.758892,MCH003,STOP,Stop: Product Changeover
+293,2023-03-10 22:47:56.382558,MCH003,START,Restart after Changeover
+388,2023-04-03 17:29:16.456455,MCH003,STOP,Stop: Tooling Issue
+389,2023-04-03 17:56:03.615733,MCH003,START,Restart after Unplanned - Process
+395,2023-04-07 17:00:20.649704,MCH003,ALARM,Pre-stop alarm: Hydraulic Leak
+396,2023-04-07 17:00:20.649704,MCH003,STOP,Stop: Hydraulic Leak
+397,2023-04-07 22:16:11.656497,MCH003,START,Restart after Unplanned - Breakdown
+407,2023-04-09 23:10:55.396019,MCH003,STOP,Stop: Tooling Issue
+408,2023-04-10 00:59:21.255224,MCH003,START,Restart after Unplanned - Process
+446,2023-04-19 03:02:06.989780,MCH003,ALARM,Pre-stop alarm: Electrical Fault
+447,2023-04-19 03:02:06.989780,MCH003,STOP,Stop: Electrical Fault
+448,2023-04-19 03:53:16.119147,MCH003,START,Restart after Unplanned - Breakdown
+454,2023-04-21 07:21:49.006916,MCH003,STOP,Stop: Software Update
+455,2023-04-21 15:16:26.544669,MCH003,START,Restart after Planned Maintenance
+544,2023-05-14 00:06:36.741839,MCH003,ALARM,Pre-stop alarm: Other Breakdown
+545,2023-05-14 00:06:36.741839,MCH003,STOP,Stop: Other Breakdown
+546,2023-05-14 01:14:25.111216,MCH003,START,Restart after Unplanned - Breakdown
+560,2023-05-17 02:25:33.818799,MCH003,STOP,Stop: Operator Error
+561,2023-05-17 02:40:37.060293,MCH003,START,Restart after Unplanned - Process
+572,2023-05-19 10:49:20.739339,MCH003,STOP,Stop: Software Update
+573,2023-05-19 18:16:25.050745,MCH003,START,Restart after Planned Maintenance
+585,2023-05-23 15:49:33.191808,MCH003,ALARM,Pre-stop alarm: Mechanical Failure
+586,2023-05-23 15:49:33.191808,MCH003,STOP,Stop: Mechanical Failure
+587,2023-05-23 18:40:39.974558,MCH003,START,Restart after Unplanned - Breakdown
+588,2023-05-23 19:41:25.227850,MCH003,ALARM,Pre-stop alarm: Hydraulic Leak
+589,2023-05-23 19:41:25.227850,MCH003,STOP,Stop: Hydraulic Leak
+590,2023-05-23 23:25:33.559289,MCH003,START,Restart after Unplanned - Breakdown
+622,2023-05-31 07:20:28.029145,MCH003,STOP,Stop: Operator Error
+623,2023-05-31 08:23:21.094687,MCH003,START,Restart after Unplanned - Process
+670,2023-06-08 13:10:55.417374,MCH003,ALARM,Pre-stop alarm: Sensor Error
+671,2023-06-08 13:10:55.417374,MCH003,STOP,Stop: Sensor Error
+672,2023-06-08 13:14:34.067511,MCH003,START,Restart after Unplanned - Breakdown
+691,2023-06-13 02:56:09.311009,MCH003,STOP,Stop: Operator Error
+692,2023-06-13 03:46:12.035035,MCH003,START,Restart after Unplanned - Process
+717,2023-06-20 16:28:31.344754,MCH003,ALARM,Pre-stop alarm: Electrical Fault
+718,2023-06-20 16:28:31.344754,MCH003,STOP,Stop: Electrical Fault
+719,2023-06-20 17:15:18.273387,MCH003,START,Restart after Unplanned - Breakdown
+734,2023-06-23 20:12:58.012909,MCH003,STOP,Stop: Tooling Issue
+735,2023-06-23 20:41:29.981428,MCH003,START,Restart after Unplanned - Process
+767,2023-07-02 19:17:03.855200,MCH003,ALARM,Pre-stop alarm: Hydraulic Leak
+768,2023-07-02 19:17:03.855200,MCH003,STOP,Stop: Hydraulic Leak
+770,2023-07-02 20:45:06.001819,MCH003,START,Restart after Unplanned - Breakdown
+771,2023-07-03 13:36:44.994281,MCH003,STOP,Stop: Material Shortage
+774,2023-07-03 15:01:43.376941,MCH003,START,Restart after Unplanned - Process
+803,2023-07-10 19:50:37.538281,MCH003,ALARM,Pre-stop alarm: Hydraulic Leak
+804,2023-07-10 19:50:37.538281,MCH003,STOP,Stop: Hydraulic Leak
+805,2023-07-10 20:23:24.333839,MCH003,START,Restart after Unplanned - Breakdown
+865,2023-07-23 10:51:03.004176,MCH003,ALARM,Pre-stop alarm: Mechanical Failure
+866,2023-07-23 10:51:03.004176,MCH003,STOP,Stop: Mechanical Failure
+867,2023-07-23 17:36:16.313401,MCH003,START,Restart after Unplanned - Breakdown
+894,2023-08-03 12:11:36.355875,MCH003,STOP,Stop: Tooling Issue
+895,2023-08-03 13:37:06.739061,MCH003,START,Restart after Unplanned - Process
+946,2023-08-14 16:24:55.824914,MCH003,ALARM,Pre-stop alarm: Sensor Error
+947,2023-08-14 16:24:55.824914,MCH003,STOP,Stop: Sensor Error
+948,2023-08-14 18:38:16.808745,MCH003,START,Restart after Unplanned - Breakdown
+964,2023-08-19 05:49:29.300176,MCH003,ALARM,Pre-stop alarm: Mechanical Failure
+965,2023-08-19 05:49:29.300176,MCH003,STOP,Stop: Mechanical Failure
+973,2023-08-20 07:08:50.141253,MCH003,START,Restart after Unplanned - Breakdown
+985,2023-08-21 13:56:41.473607,MCH003,ALARM,Pre-stop alarm: Other Breakdown
+986,2023-08-21 13:56:41.473607,MCH003,STOP,Stop: Other Breakdown
+987,2023-08-21 16:48:57.158140,MCH003,START,Restart after Unplanned - Breakdown
+990,2023-08-23 00:37:27.413572,MCH003,STOP,Stop: Product Changeover
+991,2023-08-23 01:03:54.216500,MCH003,START,Restart after Changeover
+992,2023-08-23 01:31:18.767783,MCH003,ALARM,Pre-stop alarm: Mechanical Failure
+993,2023-08-23 01:31:18.767783,MCH003,STOP,Stop: Mechanical Failure
+994,2023-08-23 09:57:59.443757,MCH003,START,Restart after Unplanned - Breakdown
+1014,2023-08-29 00:55:00.647985,MCH003,STOP,Stop: Quality Issue
+1015,2023-08-29 01:22:48.922861,MCH003,START,Restart after Unplanned - Process
+1035,2023-09-05 08:32:07.388478,MCH003,ALARM,Pre-stop alarm: Mechanical Failure
+1036,2023-09-05 08:32:07.388478,MCH003,STOP,Stop: Mechanical Failure
+1041,2023-09-06 01:19:12.720968,MCH003,START,Restart after Unplanned - Breakdown
+1063,2023-09-10 18:05:45.293124,MCH003,ALARM,Pre-stop alarm: Sensor Error
+1064,2023-09-10 18:05:45.293124,MCH003,STOP,Stop: Sensor Error
+1065,2023-09-10 20:42:58.142767,MCH003,START,Restart after Unplanned - Breakdown
+1074,2023-09-13 16:40:14.993145,MCH003,ALARM,Pre-stop alarm: Mechanical Failure
+1075,2023-09-13 16:40:14.993145,MCH003,STOP,Stop: Mechanical Failure
+1076,2023-09-13 18:48:20.915603,MCH003,START,Restart after Unplanned - Breakdown
+1175,2023-10-07 02:41:39.557291,MCH003,ALARM,Pre-stop alarm: Mechanical Failure
+1176,2023-10-07 02:41:39.557291,MCH003,STOP,Stop: Mechanical Failure
+1179,2023-10-07 07:08:43.180456,MCH003,START,Restart after Unplanned - Breakdown
+1253,2023-10-24 16:14:10.959854,MCH003,ALARM,Pre-stop alarm: Sensor Error
+1254,2023-10-24 16:14:10.959854,MCH003,STOP,Stop: Sensor Error
+1255,2023-10-24 16:42:42.228519,MCH003,START,Restart after Unplanned - Breakdown
+1287,2023-11-01 02:09:41.652648,MCH003,STOP,Stop: Tooling Issue
+1288,2023-11-01 03:17:20.567035,MCH003,START,Restart after Unplanned - Process
+1349,2023-11-16 21:24:05.786447,MCH003,ALARM,Pre-stop alarm: Sensor Error
+1350,2023-11-16 21:24:05.786447,MCH003,STOP,Stop: Sensor Error
+1351,2023-11-17 04:37:23.006264,MCH003,START,Restart after Unplanned - Breakdown
+1398,2023-11-27 09:29:04.553729,MCH003,STOP,Stop: Product Changeover
+1399,2023-11-27 09:53:57.933468,MCH003,START,Restart after Changeover
+1457,2023-12-10 00:12:56.330861,MCH003,ALARM,Pre-stop alarm: Sensor Error
+1458,2023-12-10 00:12:56.330861,MCH003,STOP,Stop: Sensor Error
+1459,2023-12-10 04:45:17.297619,MCH003,START,Restart after Unplanned - Breakdown
+7,2023-01-01 07:44:00.000000,MCH004,START,Initial startup
+46,2023-01-06 04:42:56.006094,MCH004,ALARM,Pre-stop alarm: Mechanical Failure
+47,2023-01-06 04:42:56.006094,MCH004,STOP,Stop: Mechanical Failure
+48,2023-01-06 05:00:05.818474,MCH004,START,Restart after Unplanned - Breakdown
+49,2023-01-06 09:47:39.119713,MCH004,ALARM,Pre-stop alarm: Other Breakdown
+50,2023-01-06 09:47:39.119713,MCH004,STOP,Stop: Other Breakdown
+51,2023-01-06 12:12:39.869724,MCH004,START,Restart after Unplanned - Breakdown
+62,2023-01-09 21:46:26.886287,MCH004,ALARM,Pre-stop alarm: Hydraulic Leak
+63,2023-01-09 21:46:26.886287,MCH004,STOP,Stop: Hydraulic Leak
+66,2023-01-10 05:14:15.705609,MCH004,START,Restart after Unplanned - Breakdown
+73,2023-01-13 11:18:05.197786,MCH004,ALARM,Pre-stop alarm: Other Breakdown
+74,2023-01-13 11:18:05.197786,MCH004,STOP,Stop: Other Breakdown
+75,2023-01-13 14:10:26.952229,MCH004,START,Restart after Unplanned - Breakdown
+117,2023-01-27 12:47:29.110483,MCH004,STOP,Stop: Quality Issue
+118,2023-01-27 13:47:57.163482,MCH004,START,Restart after Unplanned - Process
+156,2023-02-07 22:12:03.636640,MCH004,STOP,Stop: Quality Issue
+158,2023-02-07 23:28:05.962287,MCH004,START,Restart after Unplanned - Process
+160,2023-02-08 09:06:37.214698,MCH004,STOP,Stop: Routine Check
+161,2023-02-08 17:52:01.598534,MCH004,START,Restart after Planned Maintenance
+165,2023-02-09 06:18:08.505052,MCH004,ALARM,Pre-stop alarm: Electrical Fault
+166,2023-02-09 06:18:08.505052,MCH004,STOP,Stop: Electrical Fault
+167,2023-02-09 06:21:54.845440,MCH004,START,Restart after Unplanned - Breakdown
+226,2023-02-20 19:44:12.398337,MCH004,ALARM,Pre-stop alarm: Mechanical Failure
+227,2023-02-20 19:44:12.398337,MCH004,STOP,Stop: Mechanical Failure
+228,2023-02-20 23:37:15.484658,MCH004,START,Restart after Unplanned - Breakdown
+237,2023-02-25 21:32:18.174796,MCH004,ALARM,Pre-stop alarm: Hydraulic Leak
+238,2023-02-25 21:32:18.174796,MCH004,STOP,Stop: Hydraulic Leak
+239,2023-02-25 22:17:52.116417,MCH004,START,Restart after Unplanned - Breakdown
+286,2023-03-09 04:19:15.935006,MCH004,ALARM,Pre-stop alarm: Other Breakdown
+287,2023-03-09 04:19:15.935006,MCH004,STOP,Stop: Other Breakdown
+290,2023-03-09 08:26:56.813750,MCH004,START,Restart after Unplanned - Breakdown
+299,2023-03-11 17:47:34.721363,MCH004,STOP,Stop: Setup Adjustment
+300,2023-03-11 18:22:55.098678,MCH004,START,Restart after Changeover
+346,2023-03-21 09:50:23.403704,MCH004,STOP,Stop: Material Shortage
+350,2023-03-21 10:19:08.740037,MCH004,START,Restart after Unplanned - Process
+362,2023-03-24 15:32:21.586970,MCH004,STOP,Stop: Operator Error
+363,2023-03-24 16:36:01.729716,MCH004,START,Restart after Unplanned - Process
+378,2023-03-29 19:42:23.309272,MCH004,STOP,Stop: Quality Issue
+379,2023-03-29 19:47:08.949113,MCH004,START,Restart after Unplanned - Process
+391,2023-04-06 20:55:24.899895,MCH004,STOP,Stop: Product Changeover
+392,2023-04-06 21:23:48.876521,MCH004,START,Restart after Changeover
+421,2023-04-14 03:23:23.548558,MCH004,ALARM,Pre-stop alarm: Hydraulic Leak
+422,2023-04-14 03:23:23.548558,MCH004,STOP,Stop: Hydraulic Leak
+425,2023-04-14 08:45:57.458631,MCH004,START,Restart after Unplanned - Breakdown
+443,2023-04-18 23:11:13.938946,MCH004,ALARM,Pre-stop alarm: Sensor Error
+444,2023-04-18 23:11:13.938946,MCH004,STOP,Stop: Sensor Error
+445,2023-04-19 01:19:14.671506,MCH004,START,Restart after Unplanned - Breakdown
+469,2023-04-24 08:48:27.164743,MCH004,ALARM,Pre-stop alarm: Other Breakdown
+470,2023-04-24 08:48:27.164743,MCH004,STOP,Stop: Other Breakdown
+471,2023-04-24 11:42:31.534507,MCH004,START,Restart after Unplanned - Breakdown
+492,2023-05-01 07:13:29.166183,MCH004,STOP,Stop: Setup Adjustment
+493,2023-05-01 07:41:57.426972,MCH004,START,Restart after Changeover
+494,2023-05-02 04:09:53.654923,MCH004,ALARM,Pre-stop alarm: Hydraulic Leak
+495,2023-05-02 04:09:53.654923,MCH004,STOP,Stop: Hydraulic Leak
+498,2023-05-02 04:40:42.700294,MCH004,START,Restart after Unplanned - Breakdown
+511,2023-05-04 09:49:53.605247,MCH004,STOP,Stop: Tooling Issue
+512,2023-05-04 11:06:32.231636,MCH004,START,Restart after Unplanned - Process
+519,2023-05-05 00:38:11.111876,MCH004,ALARM,Pre-stop alarm: Hydraulic Leak
+520,2023-05-05 00:38:11.111876,MCH004,STOP,Stop: Hydraulic Leak
+521,2023-05-05 05:33:42.021825,MCH004,START,Restart after Unplanned - Breakdown
+535,2023-05-09 22:29:31.541362,MCH004,ALARM,Pre-stop alarm: Hydraulic Leak
+536,2023-05-09 22:29:31.541362,MCH004,STOP,Stop: Hydraulic Leak
+537,2023-05-10 00:25:42.149206,MCH004,START,Restart after Unplanned - Breakdown
+541,2023-05-12 02:57:26.868818,MCH004,ALARM,Pre-stop alarm: Hydraulic Leak
+542,2023-05-12 02:57:26.868818,MCH004,STOP,Stop: Hydraulic Leak
+543,2023-05-12 04:29:59.129478,MCH004,START,Restart after Unplanned - Breakdown
+547,2023-05-15 11:42:57.171970,MCH004,ALARM,Pre-stop alarm: Hydraulic Leak
+548,2023-05-15 11:42:57.171970,MCH004,STOP,Stop: Hydraulic Leak
+549,2023-05-15 14:50:44.936911,MCH004,START,Restart after Unplanned - Breakdown
+550,2023-05-15 15:43:50.288615,MCH004,STOP,Stop: Product Changeover
+551,2023-05-15 16:18:43.351004,MCH004,START,Restart after Changeover
+565,2023-05-17 12:05:19.074483,MCH004,STOP,Stop: Quality Issue
+566,2023-05-17 13:05:08.665886,MCH004,START,Restart after Unplanned - Process
+567,2023-05-17 16:25:23.699577,MCH004,STOP,Stop: Quality Issue
+568,2023-05-17 17:38:53.938974,MCH004,START,Restart after Unplanned - Process
+580,2023-05-22 13:40:55.985636,MCH004,ALARM,Pre-stop alarm: Electrical Fault
+581,2023-05-22 13:40:55.985636,MCH004,STOP,Stop: Electrical Fault
+582,2023-05-22 19:00:37.315574,MCH004,START,Restart after Unplanned - Breakdown
+627,2023-06-01 04:36:10.218226,MCH004,ALARM,Pre-stop alarm: Sensor Error
+628,2023-06-01 04:36:10.218226,MCH004,STOP,Stop: Sensor Error
+629,2023-06-01 06:19:57.179042,MCH004,START,Restart after Unplanned - Breakdown
+653,2023-06-05 01:50:46.375871,MCH004,ALARM,Pre-stop alarm: Electrical Fault
+654,2023-06-05 01:50:46.375871,MCH004,STOP,Stop: Electrical Fault
+655,2023-06-05 03:19:37.495414,MCH004,START,Restart after Unplanned - Breakdown
+705,2023-06-18 14:32:01.507507,MCH004,ALARM,Pre-stop alarm: Mechanical Failure
+706,2023-06-18 14:32:01.507507,MCH004,STOP,Stop: Mechanical Failure
+707,2023-06-18 14:44:14.176805,MCH004,START,Restart after Unplanned - Breakdown
+730,2023-06-23 09:57:10.155391,MCH004,STOP,Stop: Routine Check
+731,2023-06-23 16:52:32.893778,MCH004,START,Restart after Planned Maintenance
+755,2023-06-29 11:13:47.903544,MCH004,ALARM,Pre-stop alarm: Sensor Error
+756,2023-06-29 11:13:47.903544,MCH004,STOP,Stop: Sensor Error
+758,2023-06-29 14:41:06.090907,MCH004,START,Restart after Unplanned - Breakdown
+772,2023-07-03 13:38:37.489492,MCH004,STOP,Stop: Product Changeover
+773,2023-07-03 14:09:22.525271,MCH004,START,Restart after Changeover
+795,2023-07-08 08:19:55.443568,MCH004,STOP,Stop: Material Shortage
+796,2023-07-08 09:30:07.381615,MCH004,START,Restart after Unplanned - Process
+809,2023-07-13 12:54:14.830146,MCH004,ALARM,Pre-stop alarm: Sensor Error
+810,2023-07-13 12:54:14.830146,MCH004,STOP,Stop: Sensor Error
+814,2023-07-13 17:15:49.258160,MCH004,START,Restart after Unplanned - Breakdown
+862,2023-07-23 07:33:45.447609,MCH004,ALARM,Pre-stop alarm: Hydraulic Leak
+863,2023-07-23 07:33:45.447609,MCH004,STOP,Stop: Hydraulic Leak
+864,2023-07-23 08:30:49.734433,MCH004,START,Restart after Unplanned - Breakdown
+870,2023-07-26 00:23:36.549027,MCH004,ALARM,Pre-stop alarm: Other Breakdown
+871,2023-07-26 00:23:36.549027,MCH004,STOP,Stop: Other Breakdown
+872,2023-07-26 02:29:17.312757,MCH004,START,Restart after Unplanned - Breakdown
+910,2023-08-08 13:59:24.002262,MCH004,ALARM,Pre-stop alarm: Hydraulic Leak
+911,2023-08-08 13:59:24.002262,MCH004,STOP,Stop: Hydraulic Leak
+914,2023-08-08 15:08:40.896242,MCH004,START,Restart after Unplanned - Breakdown
+925,2023-08-10 15:49:38.156683,MCH004,ALARM,Pre-stop alarm: Other Breakdown
+926,2023-08-10 15:49:38.156683,MCH004,STOP,Stop: Other Breakdown
+927,2023-08-10 16:15:54.396431,MCH004,START,Restart after Unplanned - Breakdown
+933,2023-08-11 08:32:59.403133,MCH004,ALARM,Pre-stop alarm: Hydraulic Leak
+934,2023-08-11 08:32:59.403133,MCH004,STOP,Stop: Hydraulic Leak
+936,2023-08-11 10:33:11.202597,MCH004,START,Restart after Unplanned - Breakdown
+954,2023-08-16 04:53:42.093537,MCH004,STOP,Stop: Setup Adjustment
+955,2023-08-16 05:29:05.176725,MCH004,START,Restart after Changeover
+974,2023-08-20 07:35:39.159263,MCH004,ALARM,Pre-stop alarm: Other Breakdown
+975,2023-08-20 07:35:39.159263,MCH004,STOP,Stop: Other Breakdown
+976,2023-08-20 09:31:59.079604,MCH004,START,Restart after Unplanned - Breakdown
+1095,2023-09-20 18:35:10.733199,MCH004,STOP,Stop: Setup Adjustment
+1096,2023-09-20 19:05:57.422969,MCH004,START,Restart after Changeover
+1097,2023-09-20 22:55:08.221141,MCH004,STOP,Stop: Operator Error
+1098,2023-09-21 00:10:13.404924,MCH004,START,Restart after Unplanned - Process
+1156,2023-09-30 17:21:31.674651,MCH004,ALARM,Pre-stop alarm: Sensor Error
+1157,2023-09-30 17:21:31.674651,MCH004,STOP,Stop: Sensor Error
+1158,2023-09-30 17:40:40.427516,MCH004,START,Restart after Unplanned - Breakdown
+1210,2023-10-13 20:45:20.908408,MCH004,STOP,Stop: Tooling Issue
+1211,2023-10-13 21:37:30.052958,MCH004,START,Restart after Unplanned - Process
+1212,2023-10-14 12:49:18.705792,MCH004,ALARM,Pre-stop alarm: Sensor Error
+1213,2023-10-14 12:49:18.705792,MCH004,STOP,Stop: Sensor Error
+1217,2023-10-15 10:14:11.812271,MCH004,START,Restart after Unplanned - Breakdown
+1242,2023-10-20 15:09:37.824349,MCH004,STOP,Stop: Tooling Issue
+1243,2023-10-20 15:30:34.231100,MCH004,START,Restart after Unplanned - Process
+1251,2023-10-23 09:22:53.564436,MCH004,STOP,Stop: Routine Check
+1252,2023-10-23 18:23:41.618668,MCH004,START,Restart after Planned Maintenance
+1312,2023-11-05 00:38:19.491178,MCH004,STOP,Stop: Product Changeover
+1313,2023-11-05 01:12:42.021852,MCH004,START,Restart after Changeover
+1333,2023-11-11 07:53:59.847390,MCH004,STOP,Stop: Quality Issue
+1334,2023-11-11 08:15:00.461124,MCH004,START,Restart after Unplanned - Process
+1363,2023-11-20 21:55:07.434661,MCH004,STOP,Stop: Setup Adjustment
+1364,2023-11-20 22:23:02.565313,MCH004,START,Restart after Changeover
+1448,2023-12-09 02:01:43.188848,MCH004,STOP,Stop: Setup Adjustment
+1449,2023-12-09 02:30:15.074586,MCH004,START,Restart after Changeover
+1494,2023-12-19 00:49:44.852142,MCH004,STOP,Stop: Product Changeover
+1495,2023-12-19 01:24:23.483442,MCH004,START,Restart after Changeover
+1499,2023-12-19 11:28:45.957534,MCH004,ALARM,Pre-stop alarm: Sensor Error
+1500,2023-12-19 11:28:45.957534,MCH004,STOP,Stop: Sensor Error
+1501,2023-12-19 11:35:09.300413,MCH004,START,Restart after Unplanned - Breakdown
+1533,2023-12-30 21:59:36.493563,MCH004,ALARM,Pre-stop alarm: Electrical Fault
+1534,2023-12-30 21:59:36.493563,MCH004,STOP,Stop: Electrical Fault
+1535,2023-12-31 01:59:15.057091,MCH004,START,Restart after Unplanned - Breakdown
+1536,2023-12-31 06:06:41.843107,MCH004,ALARM,Pre-stop alarm: Sensor Error
+1537,2023-12-31 06:06:41.843107,MCH004,STOP,Stop: Sensor Error
+1538,2023-12-31 06:07:36.436491,MCH004,START,Restart after Unplanned - Breakdown
+1,2023-01-01 07:17:00.000000,MCH005,START,Initial startup
+23,2023-01-04 01:44:50.029593,MCH005,STOP,Stop: Quality Issue
+24,2023-01-04 01:54:26.088125,MCH005,START,Restart after Unplanned - Process
+29,2023-01-04 09:29:37.111073,MCH005,ALARM,Pre-stop alarm: Hydraulic Leak
+30,2023-01-04 09:29:37.111073,MCH005,STOP,Stop: Hydraulic Leak
+31,2023-01-04 14:23:45.643597,MCH005,START,Restart after Unplanned - Breakdown
+44,2023-01-06 03:38:57.205062,MCH005,STOP,Stop: Setup Adjustment
+45,2023-01-06 04:12:10.414418,MCH005,START,Restart after Changeover
+76,2023-01-14 10:45:11.484338,MCH005,STOP,Stop: Setup Adjustment
+77,2023-01-14 11:15:20.111909,MCH005,START,Restart after Changeover
+85,2023-01-23 03:20:04.879870,MCH005,ALARM,Pre-stop alarm: Electrical Fault
+86,2023-01-23 03:20:04.879870,MCH005,STOP,Stop: Electrical Fault
+87,2023-01-23 04:21:48.128281,MCH005,START,Restart after Unplanned - Breakdown
+94,2023-01-24 02:12:23.325841,MCH005,ALARM,Pre-stop alarm: Mechanical Failure
+95,2023-01-24 02:12:23.325841,MCH005,STOP,Stop: Mechanical Failure
+98,2023-01-24 08:07:45.132134,MCH005,START,Restart after Unplanned - Breakdown
+101,2023-01-25 10:52:33.891980,MCH005,ALARM,Pre-stop alarm: Electrical Fault
+102,2023-01-25 10:52:33.891980,MCH005,STOP,Stop: Electrical Fault
+103,2023-01-25 14:04:30.503940,MCH005,START,Restart after Unplanned - Breakdown
+134,2023-02-03 02:08:06.327532,MCH005,STOP,Stop: Software Update
+138,2023-02-03 11:19:47.742639,MCH005,START,Restart after Planned Maintenance
+157,2023-02-07 22:59:19.926865,MCH005,STOP,Stop: Setup Adjustment
+159,2023-02-07 23:34:05.432296,MCH005,START,Restart after Changeover
+181,2023-02-13 02:12:11.902881,MCH005,ALARM,Pre-stop alarm: Sensor Error
+182,2023-02-13 02:12:11.902881,MCH005,STOP,Stop: Sensor Error
+183,2023-02-13 06:37:20.324035,MCH005,START,Restart after Unplanned - Breakdown
+251,2023-03-02 12:24:22.384971,MCH005,STOP,Stop: Quality Issue
+252,2023-03-02 12:27:09.543924,MCH005,START,Restart after Unplanned - Process
+263,2023-03-05 04:01:17.945108,MCH005,STOP,Stop: Product Changeover
+264,2023-03-05 04:26:34.787521,MCH005,START,Restart after Changeover
+331,2023-03-19 19:34:11.072418,MCH005,ALARM,Pre-stop alarm: Electrical Fault
+332,2023-03-19 19:34:11.072418,MCH005,STOP,Stop: Electrical Fault
+333,2023-03-19 19:40:59.583666,MCH005,START,Restart after Unplanned - Breakdown
+369,2023-03-26 07:15:13.394984,MCH005,ALARM,Pre-stop alarm: Other Breakdown
+370,2023-03-26 07:15:13.394984,MCH005,STOP,Stop: Other Breakdown
+374,2023-03-26 10:40:13.577591,MCH005,START,Restart after Unplanned - Breakdown
+382,2023-03-31 23:12:31.618531,MCH005,STOP,Stop: Product Changeover
+383,2023-03-31 23:42:53.175213,MCH005,START,Restart after Changeover
+402,2023-04-09 10:24:06.612203,MCH005,STOP,Stop: Setup Adjustment
+403,2023-04-09 10:49:02.238866,MCH005,START,Restart after Changeover
+426,2023-04-14 10:39:10.946948,MCH005,STOP,Stop: Tooling Issue
+427,2023-04-14 10:59:30.353375,MCH005,START,Restart after Unplanned - Process
+440,2023-04-18 00:51:20.806223,MCH005,ALARM,Pre-stop alarm: Sensor Error
+441,2023-04-18 00:51:20.806223,MCH005,STOP,Stop: Sensor Error
+442,2023-04-18 01:44:16.625438,MCH005,START,Restart after Unplanned - Breakdown
+467,2023-04-24 06:41:54.191535,MCH005,STOP,Stop: Operator Error
+468,2023-04-24 06:56:34.971516,MCH005,START,Restart after Unplanned - Process
+480,2023-04-26 06:56:29.632802,MCH005,ALARM,Pre-stop alarm: Other Breakdown
+481,2023-04-26 06:56:29.632802,MCH005,STOP,Stop: Other Breakdown
+482,2023-04-26 08:34:05.607458,MCH005,START,Restart after Unplanned - Breakdown
+632,2023-06-01 18:37:55.303794,MCH005,STOP,Stop: Operator Error
+633,2023-06-01 18:38:21.461306,MCH005,START,Restart after Unplanned - Process
+640,2023-06-02 19:12:35.473231,MCH005,ALARM,Pre-stop alarm: Hydraulic Leak
+641,2023-06-02 19:12:35.473231,MCH005,STOP,Stop: Hydraulic Leak
+642,2023-06-02 20:28:46.222980,MCH005,START,Restart after Unplanned - Breakdown
+659,2023-06-07 19:22:41.784723,MCH005,STOP,Stop: Setup Adjustment
+660,2023-06-07 19:53:13.706583,MCH005,START,Restart after Changeover
+725,2023-06-21 09:56:26.097200,MCH005,ALARM,Pre-stop alarm: Sensor Error
+726,2023-06-21 09:56:26.097200,MCH005,STOP,Stop: Sensor Error
+727,2023-06-21 11:17:32.539776,MCH005,START,Restart after Unplanned - Breakdown
+741,2023-06-25 07:31:11.188182,MCH005,ALARM,Pre-stop alarm: Electrical Fault
+742,2023-06-25 07:31:11.188182,MCH005,STOP,Stop: Electrical Fault
+743,2023-06-25 11:11:52.860881,MCH005,START,Restart after Unplanned - Breakdown
+826,2023-07-18 20:24:32.068031,MCH005,STOP,Stop: Setup Adjustment
+827,2023-07-18 20:53:08.969196,MCH005,START,Restart after Changeover
+843,2023-07-20 21:27:28.113308,MCH005,ALARM,Pre-stop alarm: Sensor Error
+844,2023-07-20 21:27:28.113308,MCH005,STOP,Stop: Sensor Error
+845,2023-07-20 21:54:58.728570,MCH005,START,Restart after Unplanned - Breakdown
+876,2023-07-26 23:47:10.990527,MCH005,STOP,Stop: Material Shortage
+879,2023-07-27 01:16:06.024977,MCH005,START,Restart after Unplanned - Process
+896,2023-08-04 09:16:06.511662,MCH005,ALARM,Pre-stop alarm: Other Breakdown
+897,2023-08-04 09:16:06.511662,MCH005,STOP,Stop: Other Breakdown
+898,2023-08-04 10:07:03.999480,MCH005,START,Restart after Unplanned - Breakdown
+921,2023-08-09 14:19:28.018624,MCH005,ALARM,Pre-stop alarm: Hydraulic Leak
+922,2023-08-09 14:19:28.018624,MCH005,STOP,Stop: Hydraulic Leak
+923,2023-08-09 15:50:31.093703,MCH005,START,Restart after Unplanned - Breakdown
+1037,2023-09-05 17:26:41.899690,MCH005,STOP,Stop: Material Shortage
+1038,2023-09-05 17:26:49.987033,MCH005,START,Restart after Unplanned - Process
+1077,2023-09-14 12:00:56.363628,MCH005,ALARM,Pre-stop alarm: Hydraulic Leak
+1078,2023-09-14 12:00:56.363628,MCH005,STOP,Stop: Hydraulic Leak
+1079,2023-09-14 12:35:15.788059,MCH005,START,Restart after Unplanned - Breakdown
+1082,2023-09-18 15:00:36.790805,MCH005,STOP,Stop: Setup Adjustment
+1083,2023-09-18 15:27:45.831483,MCH005,START,Restart after Changeover
+1119,2023-09-23 23:12:47.606866,MCH005,ALARM,Pre-stop alarm: Other Breakdown
+1120,2023-09-23 23:12:47.606866,MCH005,STOP,Stop: Other Breakdown
+1121,2023-09-24 01:12:12.646127,MCH005,START,Restart after Unplanned - Breakdown
+1164,2023-10-03 14:41:03.385126,MCH005,ALARM,Pre-stop alarm: Electrical Fault
+1165,2023-10-03 14:41:03.385126,MCH005,STOP,Stop: Electrical Fault
+1168,2023-10-03 16:32:44.680888,MCH005,START,Restart after Unplanned - Breakdown
+1172,2023-10-05 16:02:17.379818,MCH005,STOP,Stop: Material Shortage
+1173,2023-10-05 16:08:53.253402,MCH005,START,Restart after Unplanned - Process
+1182,2023-10-07 23:06:54.327042,MCH005,STOP,Stop: Quality Issue
+1183,2023-10-08 01:06:33.907875,MCH005,START,Restart after Unplanned - Process
+1188,2023-10-08 14:10:41.361660,MCH005,ALARM,Pre-stop alarm: Mechanical Failure
+1189,2023-10-08 14:10:41.361660,MCH005,STOP,Stop: Mechanical Failure
+1190,2023-10-08 14:41:21.476380,MCH005,START,Restart after Unplanned - Breakdown
+1191,2023-10-08 18:48:42.365757,MCH005,STOP,Stop: Tooling Issue
+1192,2023-10-08 19:17:46.629260,MCH005,START,Restart after Unplanned - Process
+1206,2023-10-12 14:25:19.672908,MCH005,STOP,Stop: Quality Issue
+1207,2023-10-12 14:41:07.974195,MCH005,START,Restart after Unplanned - Process
+1223,2023-10-17 00:18:48.004956,MCH005,STOP,Stop: Material Shortage
+1224,2023-10-17 01:25:49.866702,MCH005,START,Restart after Unplanned - Process
+1307,2023-11-04 02:22:56.933949,MCH005,STOP,Stop: Setup Adjustment
+1308,2023-11-04 02:51:47.626242,MCH005,START,Restart after Changeover
+1315,2023-11-05 19:05:50.525895,MCH005,STOP,Stop: Operator Error
+1316,2023-11-05 20:50:44.873530,MCH005,START,Restart after Unplanned - Process
+1354,2023-11-18 08:10:31.526314,MCH005,ALARM,Pre-stop alarm: Hydraulic Leak
+1355,2023-11-18 08:10:31.526314,MCH005,STOP,Stop: Hydraulic Leak
+1356,2023-11-18 10:38:37.732243,MCH005,START,Restart after Unplanned - Breakdown
+1360,2023-11-19 08:26:53.208429,MCH005,ALARM,Pre-stop alarm: Sensor Error
+1361,2023-11-19 08:26:53.208429,MCH005,STOP,Stop: Sensor Error
+1362,2023-11-19 12:25:59.253739,MCH005,START,Restart after Unplanned - Breakdown
+1416,2023-12-02 13:44:07.575118,MCH005,ALARM,Pre-stop alarm: Mechanical Failure
+1417,2023-12-02 13:44:07.575118,MCH005,STOP,Stop: Mechanical Failure
+1418,2023-12-02 15:51:38.631132,MCH005,START,Restart after Unplanned - Breakdown
+1430,2023-12-05 11:04:21.661513,MCH005,STOP,Stop: Quality Issue
+1431,2023-12-05 11:12:35.144366,MCH005,START,Restart after Unplanned - Process
+1433,2023-12-05 21:23:58.408883,MCH005,ALARM,Pre-stop alarm: Mechanical Failure
+1434,2023-12-05 21:23:58.408883,MCH005,STOP,Stop: Mechanical Failure
+1435,2023-12-05 22:55:28.160914,MCH005,START,Restart after Unplanned - Breakdown
+1437,2023-12-06 02:29:00.296702,MCH005,ALARM,Pre-stop alarm: Mechanical Failure
+1438,2023-12-06 02:29:00.296702,MCH005,STOP,Stop: Mechanical Failure
+1439,2023-12-06 02:55:32.762793,MCH005,START,Restart after Unplanned - Breakdown
+1442,2023-12-07 00:16:39.642428,MCH005,ALARM,Pre-stop alarm: Sensor Error
+1443,2023-12-07 00:16:39.642428,MCH005,STOP,Stop: Sensor Error
+1444,2023-12-07 04:17:36.159523,MCH005,START,Restart after Unplanned - Breakdown
+1480,2023-12-16 17:28:44.913182,MCH005,ALARM,Pre-stop alarm: Mechanical Failure
+1481,2023-12-16 17:28:44.913182,MCH005,STOP,Stop: Mechanical Failure
+1482,2023-12-16 19:23:27.341386,MCH005,START,Restart after Unplanned - Breakdown
+1502,2023-12-20 20:32:37.837041,MCH005,STOP,Stop: Setup Adjustment
+1503,2023-12-20 20:56:55.935796,MCH005,START,Restart after Changeover
+1504,2023-12-21 07:33:06.559169,MCH005,STOP,Stop: Material Shortage
+1505,2023-12-21 08:49:32.085887,MCH005,START,Restart after Unplanned - Process
+1510,2023-12-23 21:46:07.737069,MCH005,ALARM,Pre-stop alarm: Other Breakdown
+1511,2023-12-23 21:46:07.737069,MCH005,STOP,Stop: Other Breakdown
+1512,2023-12-23 21:54:46.247050,MCH005,START,Restart after Unplanned - Breakdown
+2,2023-01-01 07:23:00.000000,MCH006,START,Initial startup
+13,2023-01-01 23:34:23.087438,MCH006,STOP,Stop: Product Changeover
+15,2023-01-02 00:02:16.938038,MCH006,START,Restart after Changeover
+60,2023-01-09 03:15:22.286447,MCH006,STOP,Stop: Operator Error
+61,2023-01-09 04:27:40.078649,MCH006,START,Restart after Unplanned - Process
+64,2023-01-09 23:53:34.787563,MCH006,STOP,Stop: Product Changeover
+65,2023-01-10 00:17:50.154228,MCH006,START,Restart after Changeover
+107,2023-01-25 23:18:27.653200,MCH006,ALARM,Pre-stop alarm: Mechanical Failure
+108,2023-01-25 23:18:27.653200,MCH006,STOP,Stop: Mechanical Failure
+109,2023-01-26 00:59:18.628072,MCH006,START,Restart after Unplanned - Breakdown
+120,2023-01-27 19:46:36.430089,MCH006,ALARM,Pre-stop alarm: Electrical Fault
+121,2023-01-27 19:46:36.430089,MCH006,STOP,Stop: Electrical Fault
+122,2023-01-27 22:10:55.954432,MCH006,START,Restart after Unplanned - Breakdown
+135,2023-02-03 02:11:28.859912,MCH006,ALARM,Pre-stop alarm: Mechanical Failure
+136,2023-02-03 02:11:28.859912,MCH006,STOP,Stop: Mechanical Failure
+137,2023-02-03 08:21:09.689236,MCH006,START,Restart after Unplanned - Breakdown
+200,2023-02-15 15:35:42.258519,MCH006,ALARM,Pre-stop alarm: Other Breakdown
+201,2023-02-15 15:35:42.258519,MCH006,STOP,Stop: Other Breakdown
+202,2023-02-15 16:27:52.617079,MCH006,START,Restart after Unplanned - Breakdown
+203,2023-02-16 15:18:50.627585,MCH006,ALARM,Pre-stop alarm: Sensor Error
+204,2023-02-16 15:18:50.627585,MCH006,STOP,Stop: Sensor Error
+205,2023-02-16 15:48:34.883454,MCH006,START,Restart after Unplanned - Breakdown
+210,2023-02-18 15:46:16.785809,MCH006,STOP,Stop: Routine Check
+213,2023-02-18 23:46:32.730670,MCH006,START,Restart after Planned Maintenance
+215,2023-02-19 05:13:58.697529,MCH006,ALARM,Pre-stop alarm: Hydraulic Leak
+216,2023-02-19 05:13:58.697529,MCH006,STOP,Stop: Hydraulic Leak
+217,2023-02-19 15:18:20.415453,MCH006,START,Restart after Unplanned - Breakdown
+218,2023-02-19 21:36:03.676026,MCH006,STOP,Stop: Tooling Issue
+219,2023-02-19 22:02:22.913713,MCH006,START,Restart after Unplanned - Process
+220,2023-02-20 01:43:13.431906,MCH006,STOP,Stop: Software Update
+223,2023-02-20 11:07:06.398746,MCH006,START,Restart after Planned Maintenance
+224,2023-02-20 17:07:19.099440,MCH006,STOP,Stop: Product Changeover
+225,2023-02-20 17:34:20.915680,MCH006,START,Restart after Changeover
+242,2023-02-27 00:12:26.823824,MCH006,STOP,Stop: Setup Adjustment
+243,2023-02-27 00:47:46.137667,MCH006,START,Restart after Changeover
+244,2023-02-28 13:41:11.995779,MCH006,ALARM,Pre-stop alarm: Other Breakdown
+245,2023-02-28 13:41:11.995779,MCH006,STOP,Stop: Other Breakdown
+246,2023-02-28 14:41:40.533331,MCH006,START,Restart after Unplanned - Breakdown
+253,2023-03-03 04:58:39.139381,MCH006,ALARM,Pre-stop alarm: Mechanical Failure
+254,2023-03-03 04:58:39.139381,MCH006,STOP,Stop: Mechanical Failure
+255,2023-03-03 11:13:10.226732,MCH006,START,Restart after Unplanned - Breakdown
+261,2023-03-04 10:27:18.433666,MCH006,STOP,Stop: Material Shortage
+262,2023-03-04 10:31:24.442619,MCH006,START,Restart after Unplanned - Process
+316,2023-03-17 08:21:55.002068,MCH006,ALARM,Pre-stop alarm: Other Breakdown
+317,2023-03-17 08:21:55.002068,MCH006,STOP,Stop: Other Breakdown
+318,2023-03-17 10:41:19.025418,MCH006,START,Restart after Unplanned - Breakdown
+319,2023-03-18 11:05:14.398589,MCH006,ALARM,Pre-stop alarm: Other Breakdown
+320,2023-03-18 11:05:14.398589,MCH006,STOP,Stop: Other Breakdown
+321,2023-03-18 12:54:18.317654,MCH006,START,Restart after Unplanned - Breakdown
+326,2023-03-19 02:48:47.877724,MCH006,STOP,Stop: Quality Issue
+327,2023-03-19 04:36:59.087218,MCH006,START,Restart after Unplanned - Process
+345,2023-03-21 09:28:41.438832,MCH006,STOP,Stop: Product Changeover
+347,2023-03-21 09:57:51.287113,MCH006,START,Restart after Changeover
+354,2023-03-22 20:49:15.841296,MCH006,ALARM,Pre-stop alarm: Mechanical Failure
+355,2023-03-22 20:49:15.841296,MCH006,STOP,Stop: Mechanical Failure
+356,2023-03-23 01:30:14.679984,MCH006,START,Restart after Unplanned - Breakdown
+418,2023-04-13 20:28:16.838905,MCH006,ALARM,Pre-stop alarm: Mechanical Failure
+419,2023-04-13 20:28:16.838905,MCH006,STOP,Stop: Mechanical Failure
+420,2023-04-13 21:14:28.009156,MCH006,START,Restart after Unplanned - Breakdown
+461,2023-04-23 08:06:09.461366,MCH006,STOP,Stop: Operator Error
+462,2023-04-23 09:13:24.833892,MCH006,START,Restart after Unplanned - Process
+486,2023-04-29 22:19:37.698778,MCH006,ALARM,Pre-stop alarm: Hydraulic Leak
+487,2023-04-29 22:19:37.698778,MCH006,STOP,Stop: Hydraulic Leak
+488,2023-04-29 23:00:48.499392,MCH006,START,Restart after Unplanned - Breakdown
+489,2023-05-01 01:59:41.959101,MCH006,ALARM,Pre-stop alarm: Other Breakdown
+490,2023-05-01 01:59:41.959101,MCH006,STOP,Stop: Other Breakdown
+491,2023-05-01 02:11:53.326780,MCH006,START,Restart after Unplanned - Breakdown
+513,2023-05-04 14:11:04.832036,MCH006,ALARM,Pre-stop alarm: Sensor Error
+514,2023-05-04 14:11:04.832036,MCH006,STOP,Stop: Sensor Error
+517,2023-05-04 17:54:59.983663,MCH006,START,Restart after Unplanned - Breakdown
+552,2023-05-15 22:00:35.786084,MCH006,ALARM,Pre-stop alarm: Sensor Error
+553,2023-05-15 22:00:35.786084,MCH006,STOP,Stop: Sensor Error
+557,2023-05-16 06:37:38.426552,MCH006,START,Restart after Unplanned - Breakdown
+680,2023-06-09 07:50:09.043823,MCH006,ALARM,Pre-stop alarm: Hydraulic Leak
+681,2023-06-09 07:50:09.043823,MCH006,STOP,Stop: Hydraulic Leak
+683,2023-06-09 09:01:55.167253,MCH006,START,Restart after Unplanned - Breakdown
+684,2023-06-11 06:34:14.018597,MCH006,ALARM,Pre-stop alarm: Sensor Error
+685,2023-06-11 06:34:14.018597,MCH006,STOP,Stop: Sensor Error
+687,2023-06-11 11:38:41.209446,MCH006,START,Restart after Unplanned - Breakdown
+720,2023-06-20 21:16:37.963980,MCH006,STOP,Stop: Setup Adjustment
+721,2023-06-20 21:43:40.770065,MCH006,START,Restart after Changeover
+732,2023-06-23 17:19:30.704474,MCH006,ALARM,Pre-stop alarm: Electrical Fault
+733,2023-06-23 17:19:30.704474,MCH006,STOP,Stop: Electrical Fault
+737,2023-06-24 02:15:37.267211,MCH006,START,Restart after Unplanned - Breakdown
+746,2023-06-26 05:32:54.039027,MCH006,STOP,Stop: Product Changeover
+747,2023-06-26 05:59:09.989942,MCH006,START,Restart after Changeover
+750,2023-06-29 00:49:21.766829,MCH006,ALARM,Pre-stop alarm: Sensor Error
+751,2023-06-29 00:49:21.766829,MCH006,STOP,Stop: Sensor Error
+752,2023-06-29 03:51:15.456308,MCH006,START,Restart after Unplanned - Breakdown
+780,2023-07-05 01:43:37.833151,MCH006,ALARM,Pre-stop alarm: Hydraulic Leak
+781,2023-07-05 01:43:37.833151,MCH006,STOP,Stop: Hydraulic Leak
+784,2023-07-05 03:49:32.521147,MCH006,START,Restart after Unplanned - Breakdown
+849,2023-07-21 14:23:29.397082,MCH006,ALARM,Pre-stop alarm: Mechanical Failure
+850,2023-07-21 14:23:29.397082,MCH006,STOP,Stop: Mechanical Failure
+851,2023-07-21 16:11:13.241044,MCH006,START,Restart after Unplanned - Breakdown
+868,2023-07-25 07:24:09.794272,MCH006,STOP,Stop: Routine Check
+869,2023-07-25 16:17:59.462830,MCH006,START,Restart after Planned Maintenance
+912,2023-08-08 14:11:04.095994,MCH006,ALARM,Pre-stop alarm: Other Breakdown
+913,2023-08-08 14:11:04.095994,MCH006,STOP,Stop: Other Breakdown
+915,2023-08-08 16:26:07.548224,MCH006,START,Restart after Unplanned - Breakdown
+962,2023-08-18 03:26:21.266119,MCH006,STOP,Stop: Product Changeover
+963,2023-08-18 03:59:36.606041,MCH006,START,Restart after Changeover
+1010,2023-08-26 20:46:22.934730,MCH006,STOP,Stop: Software Update
+1011,2023-08-27 03:49:33.633218,MCH006,START,Restart after Planned Maintenance
+1023,2023-09-01 02:10:47.472891,MCH006,ALARM,Pre-stop alarm: Other Breakdown
+1024,2023-09-01 02:10:47.472891,MCH006,STOP,Stop: Other Breakdown
+1025,2023-09-01 02:55:47.773827,MCH006,START,Restart after Unplanned - Breakdown
+1066,2023-09-11 15:31:12.262895,MCH006,ALARM,Pre-stop alarm: Sensor Error
+1067,2023-09-11 15:31:12.262895,MCH006,STOP,Stop: Sensor Error
+1068,2023-09-11 20:29:06.732065,MCH006,START,Restart after Unplanned - Breakdown
+1080,2023-09-18 14:03:04.422302,MCH006,ALARM,Pre-stop alarm: Hydraulic Leak
+1081,2023-09-18 14:03:04.422302,MCH006,STOP,Stop: Hydraulic Leak
+1084,2023-09-18 20:13:22.143224,MCH006,START,Restart after Unplanned - Breakdown
+1108,2023-09-22 02:59:29.477781,MCH006,STOP,Stop: Operator Error
+1109,2023-09-22 03:20:42.555681,MCH006,START,Restart after Unplanned - Process
+1110,2023-09-22 22:31:33.252816,MCH006,ALARM,Pre-stop alarm: Hydraulic Leak
+1111,2023-09-22 22:31:33.252816,MCH006,STOP,Stop: Hydraulic Leak
+1112,2023-09-22 23:03:36.148920,MCH006,START,Restart after Unplanned - Breakdown
+1113,2023-09-23 16:11:11.460290,MCH006,ALARM,Pre-stop alarm: Other Breakdown
+1114,2023-09-23 16:11:11.460290,MCH006,STOP,Stop: Other Breakdown
+1117,2023-09-23 18:12:11.914588,MCH006,START,Restart after Unplanned - Breakdown
+1135,2023-09-26 05:59:32.781201,MCH006,ALARM,Pre-stop alarm: Mechanical Failure
+1136,2023-09-26 05:59:32.781201,MCH006,STOP,Stop: Mechanical Failure
+1141,2023-09-26 10:28:32.011781,MCH006,START,Restart after Unplanned - Breakdown
+1159,2023-10-01 04:40:38.770707,MCH006,ALARM,Pre-stop alarm: Hydraulic Leak
+1160,2023-10-01 04:40:38.770707,MCH006,STOP,Stop: Hydraulic Leak
+1161,2023-10-01 07:47:22.497335,MCH006,START,Restart after Unplanned - Breakdown
+1166,2023-10-03 15:12:58.263434,MCH006,ALARM,Pre-stop alarm: Other Breakdown
+1167,2023-10-03 15:12:58.263434,MCH006,STOP,Stop: Other Breakdown
+1169,2023-10-04 13:09:41.262231,MCH006,START,Restart after Unplanned - Breakdown
+1177,2023-10-07 03:53:52.433514,MCH006,ALARM,Pre-stop alarm: Mechanical Failure
+1178,2023-10-07 03:53:52.433514,MCH006,STOP,Stop: Mechanical Failure
+1180,2023-10-07 13:55:42.654301,MCH006,START,Restart after Unplanned - Breakdown
+1181,2023-10-07 22:13:32.576305,MCH006,STOP,Stop: Quality Issue
+1184,2023-10-08 01:08:14.489956,MCH006,START,Restart after Unplanned - Process
+1208,2023-10-12 20:02:40.757320,MCH006,STOP,Stop: Tooling Issue
+1209,2023-10-12 21:17:30.843567,MCH006,START,Restart after Unplanned - Process
+1218,2023-10-16 10:07:30.019611,MCH006,ALARM,Pre-stop alarm: Sensor Error
+1219,2023-10-16 10:07:30.019611,MCH006,STOP,Stop: Sensor Error
+1222,2023-10-16 16:36:13.691494,MCH006,START,Restart after Unplanned - Breakdown
+1265,2023-10-26 00:39:32.051044,MCH006,STOP,Stop: Product Changeover
+1266,2023-10-26 01:13:47.361140,MCH006,START,Restart after Changeover
+1318,2023-11-06 12:43:24.872501,MCH006,STOP,Stop: Setup Adjustment
+1319,2023-11-06 13:18:45.920629,MCH006,START,Restart after Changeover
+1322,2023-11-07 22:41:08.612057,MCH006,STOP,Stop: Tooling Issue
+1323,2023-11-07 22:49:12.429723,MCH006,START,Restart after Unplanned - Process
+1328,2023-11-08 22:33:32.371213,MCH006,STOP,Stop: Product Changeover
+1329,2023-11-08 23:04:09.133588,MCH006,START,Restart after Changeover
+1330,2023-11-11 01:07:05.455812,MCH006,ALARM,Pre-stop alarm: Mechanical Failure
+1331,2023-11-11 01:07:05.455812,MCH006,STOP,Stop: Mechanical Failure
+1332,2023-11-11 05:29:00.007724,MCH006,START,Restart after Unplanned - Breakdown
+1340,2023-11-12 04:26:30.483366,MCH006,STOP,Stop: Setup Adjustment
+1341,2023-11-12 04:58:08.007259,MCH006,START,Restart after Changeover
+1365,2023-11-20 23:03:21.979489,MCH006,STOP,Stop: Setup Adjustment
+1366,2023-11-20 23:39:20.928666,MCH006,START,Restart after Changeover
+1372,2023-11-22 09:11:40.205128,MCH006,ALARM,Pre-stop alarm: Mechanical Failure
+1373,2023-11-22 09:11:40.205128,MCH006,STOP,Stop: Mechanical Failure
+1377,2023-11-22 13:05:08.745896,MCH006,START,Restart after Unplanned - Breakdown
+1384,2023-11-23 20:53:47.210179,MCH006,ALARM,Pre-stop alarm: Other Breakdown
+1385,2023-11-23 20:53:47.210179,MCH006,STOP,Stop: Other Breakdown
+1388,2023-11-24 02:07:25.571989,MCH006,START,Restart after Unplanned - Breakdown
+1410,2023-11-30 09:54:05.778170,MCH006,ALARM,Pre-stop alarm: Sensor Error
+1411,2023-11-30 09:54:05.778170,MCH006,STOP,Stop: Sensor Error
+1412,2023-11-30 10:21:15.168247,MCH006,START,Restart after Unplanned - Breakdown
+1425,2023-12-05 08:53:56.758512,MCH006,ALARM,Pre-stop alarm: Electrical Fault
+1426,2023-12-05 08:53:56.758512,MCH006,STOP,Stop: Electrical Fault
+1429,2023-12-05 10:53:06.094506,MCH006,START,Restart after Unplanned - Breakdown
+1466,2023-12-12 19:58:05.133135,MCH006,STOP,Stop: Calibration
+1467,2023-12-13 03:53:39.192733,MCH006,START,Restart after Planned Maintenance
+1516,2023-12-26 20:51:22.299348,MCH006,STOP,Stop: Calibration
+1519,2023-12-27 04:23:06.442641,MCH006,START,Restart after Planned Maintenance
+10,2023-01-01 08:00:00.000000,MCH007,START,Initial startup
+16,2023-01-02 21:32:03.535669,MCH007,STOP,Stop: Quality Issue
+17,2023-01-02 22:15:58.330545,MCH007,START,Restart after Unplanned - Process
+18,2023-01-03 00:34:25.803682,MCH007,ALARM,Pre-stop alarm: Hydraulic Leak
+19,2023-01-03 00:34:25.803682,MCH007,STOP,Stop: Hydraulic Leak
+20,2023-01-03 00:58:59.279278,MCH007,START,Restart after Unplanned - Breakdown
+21,2023-01-03 23:57:29.240311,MCH007,ALARM,Pre-stop alarm: Other Breakdown
+22,2023-01-03 23:57:29.240311,MCH007,STOP,Stop: Other Breakdown
+25,2023-01-04 02:45:35.896383,MCH007,START,Restart after Unplanned - Breakdown
+35,2023-01-05 04:51:37.694424,MCH007,ALARM,Pre-stop alarm: Hydraulic Leak
+36,2023-01-05 04:51:37.694424,MCH007,STOP,Stop: Hydraulic Leak
+38,2023-01-05 08:49:17.270753,MCH007,START,Restart after Unplanned - Breakdown
+40,2023-01-05 16:56:34.059715,MCH007,STOP,Stop: Material Shortage
+41,2023-01-05 17:44:41.115429,MCH007,START,Restart after Unplanned - Process
+78,2023-01-21 21:47:25.256439,MCH007,ALARM,Pre-stop alarm: Sensor Error
+79,2023-01-21 21:47:25.256439,MCH007,STOP,Stop: Sensor Error
+80,2023-01-22 02:41:37.380298,MCH007,START,Restart after Unplanned - Breakdown
+92,2023-01-24 01:21:40.947092,MCH007,ALARM,Pre-stop alarm: Electrical Fault
+93,2023-01-24 01:21:40.947092,MCH007,STOP,Stop: Electrical Fault
+97,2023-01-24 04:48:00.702402,MCH007,START,Restart after Unplanned - Breakdown
+123,2023-01-28 08:22:19.245071,MCH007,ALARM,Pre-stop alarm: Sensor Error
+124,2023-01-28 08:22:19.245071,MCH007,STOP,Stop: Sensor Error
+125,2023-01-28 08:47:39.951035,MCH007,START,Restart after Unplanned - Breakdown
+168,2023-02-09 11:26:32.147346,MCH007,ALARM,Pre-stop alarm: Sensor Error
+169,2023-02-09 11:26:32.147346,MCH007,STOP,Stop: Sensor Error
+170,2023-02-09 11:47:54.694950,MCH007,START,Restart after Unplanned - Breakdown
+193,2023-02-15 05:28:12.991123,MCH007,ALARM,Pre-stop alarm: Sensor Error
+194,2023-02-15 05:28:12.991123,MCH007,STOP,Stop: Sensor Error
+199,2023-02-15 13:59:08.085186,MCH007,START,Restart after Unplanned - Breakdown
+221,2023-02-20 09:39:20.922050,MCH007,STOP,Stop: Tooling Issue
+222,2023-02-20 09:47:35.396371,MCH007,START,Restart after Unplanned - Process
+240,2023-02-26 21:53:11.561845,MCH007,STOP,Stop: Setup Adjustment
+241,2023-02-26 22:27:18.491543,MCH007,START,Restart after Changeover
+301,2023-03-14 07:45:09.827248,MCH007,STOP,Stop: Product Changeover
+302,2023-03-14 08:20:19.284648,MCH007,START,Restart after Changeover
+343,2023-03-21 06:27:16.507868,MCH007,STOP,Stop: Quality Issue
+344,2023-03-21 07:28:55.267768,MCH007,START,Restart after Unplanned - Process
+348,2023-03-21 10:01:37.722628,MCH007,ALARM,Pre-stop alarm: Electrical Fault
+349,2023-03-21 10:01:37.722628,MCH007,STOP,Stop: Electrical Fault
+351,2023-03-21 17:15:37.183758,MCH007,START,Restart after Unplanned - Breakdown
+360,2023-03-24 08:03:24.112672,MCH007,STOP,Stop: Material Shortage
+361,2023-03-24 08:41:33.225465,MCH007,START,Restart after Unplanned - Process
+400,2023-04-08 19:56:53.591256,MCH007,STOP,Stop: Setup Adjustment
+401,2023-04-08 20:22:36.217545,MCH007,START,Restart after Changeover
+414,2023-04-11 19:07:24.237326,MCH007,ALARM,Pre-stop alarm: Electrical Fault
+415,2023-04-11 19:07:24.237326,MCH007,STOP,Stop: Electrical Fault
+417,2023-04-12 15:24:51.316912,MCH007,START,Restart after Unplanned - Breakdown
+438,2023-04-16 19:52:31.115033,MCH007,STOP,Stop: Tooling Issue
+439,2023-04-16 20:37:50.691670,MCH007,START,Restart after Unplanned - Process
+465,2023-04-24 02:09:35.180830,MCH007,STOP,Stop: Setup Adjustment
+466,2023-04-24 02:34:54.388247,MCH007,START,Restart after Changeover
+496,2023-05-02 04:37:18.509043,MCH007,ALARM,Pre-stop alarm: Sensor Error
+497,2023-05-02 04:37:18.509043,MCH007,STOP,Stop: Sensor Error
+499,2023-05-02 08:50:07.865807,MCH007,START,Restart after Unplanned - Breakdown
+506,2023-05-03 06:34:32.274151,MCH007,STOP,Stop: Routine Check
+510,2023-05-03 15:46:21.023371,MCH007,START,Restart after Planned Maintenance
+527,2023-05-06 16:44:01.646721,MCH007,ALARM,Pre-stop alarm: Electrical Fault
+528,2023-05-06 16:44:01.646721,MCH007,STOP,Stop: Electrical Fault
+529,2023-05-07 01:26:55.577006,MCH007,START,Restart after Unplanned - Breakdown
+533,2023-05-09 19:41:06.098267,MCH007,STOP,Stop: Material Shortage
+534,2023-05-09 21:10:35.195180,MCH007,START,Restart after Unplanned - Process
+554,2023-05-16 01:00:31.491766,MCH007,ALARM,Pre-stop alarm: Electrical Fault
+555,2023-05-16 01:00:31.491766,MCH007,STOP,Stop: Electrical Fault
+556,2023-05-16 03:34:29.912874,MCH007,START,Restart after Unplanned - Breakdown
+558,2023-05-16 23:12:47.279506,MCH007,ALARM,Pre-stop alarm: Hydraulic Leak
+559,2023-05-16 23:12:47.279506,MCH007,STOP,Stop: Hydraulic Leak
+562,2023-05-17 03:23:11.430404,MCH007,START,Restart after Unplanned - Breakdown
+577,2023-05-22 08:59:10.386767,MCH007,ALARM,Pre-stop alarm: Mechanical Failure
+578,2023-05-22 08:59:10.386767,MCH007,STOP,Stop: Mechanical Failure
+579,2023-05-22 12:20:53.190733,MCH007,START,Restart after Unplanned - Breakdown
+605,2023-05-25 21:38:02.160109,MCH007,ALARM,Pre-stop alarm: Other Breakdown
+606,2023-05-25 21:38:02.160109,MCH007,STOP,Stop: Other Breakdown
+607,2023-05-25 22:08:45.375670,MCH007,START,Restart after Unplanned - Breakdown
+611,2023-05-27 06:51:22.425809,MCH007,ALARM,Pre-stop alarm: Other Breakdown
+612,2023-05-27 06:51:22.425809,MCH007,STOP,Stop: Other Breakdown
+613,2023-05-27 11:35:03.601285,MCH007,START,Restart after Unplanned - Breakdown
+646,2023-06-04 09:32:36.537968,MCH007,ALARM,Pre-stop alarm: Electrical Fault
+647,2023-06-04 09:32:36.537968,MCH007,STOP,Stop: Electrical Fault
+648,2023-06-04 17:59:07.977168,MCH007,START,Restart after Unplanned - Breakdown
+661,2023-06-07 21:27:02.637278,MCH007,ALARM,Pre-stop alarm: Mechanical Failure
+662,2023-06-07 21:27:02.637278,MCH007,STOP,Stop: Mechanical Failure
+663,2023-06-07 21:30:37.075601,MCH007,START,Restart after Unplanned - Breakdown
+686,2023-06-11 08:13:36.475017,MCH007,STOP,Stop: Calibration
+688,2023-06-11 14:37:40.285814,MCH007,START,Restart after Planned Maintenance
+811,2023-07-13 13:52:34.772776,MCH007,ALARM,Pre-stop alarm: Sensor Error
+812,2023-07-13 13:52:34.772776,MCH007,STOP,Stop: Sensor Error
+813,2023-07-13 15:57:09.195785,MCH007,START,Restart after Unplanned - Breakdown
+817,2023-07-16 23:38:29.794799,MCH007,ALARM,Pre-stop alarm: Sensor Error
+818,2023-07-16 23:38:29.794799,MCH007,STOP,Stop: Sensor Error
+819,2023-07-17 01:48:50.166368,MCH007,START,Restart after Unplanned - Breakdown
+830,2023-07-19 00:12:39.355900,MCH007,STOP,Stop: Operator Error
+831,2023-07-19 01:10:58.107706,MCH007,START,Restart after Unplanned - Process
+835,2023-07-19 16:32:01.572625,MCH007,ALARM,Pre-stop alarm: Electrical Fault
+836,2023-07-19 16:32:01.572625,MCH007,STOP,Stop: Electrical Fault
+837,2023-07-19 18:14:22.862775,MCH007,START,Restart after Unplanned - Breakdown
+856,2023-07-22 15:16:27.435662,MCH007,ALARM,Pre-stop alarm: Electrical Fault
+857,2023-07-22 15:16:27.435662,MCH007,STOP,Stop: Electrical Fault
+858,2023-07-22 16:06:52.991503,MCH007,START,Restart after Unplanned - Breakdown
+889,2023-08-01 23:08:06.738653,MCH007,ALARM,Pre-stop alarm: Other Breakdown
+890,2023-08-01 23:08:06.738653,MCH007,STOP,Stop: Other Breakdown
+891,2023-08-02 06:08:05.144090,MCH007,START,Restart after Unplanned - Breakdown
+942,2023-08-13 04:01:22.175830,MCH007,STOP,Stop: Product Changeover
+943,2023-08-13 04:36:55.410792,MCH007,START,Restart after Changeover
+988,2023-08-21 22:16:56.494586,MCH007,STOP,Stop: Material Shortage
+989,2023-08-21 22:40:50.482762,MCH007,START,Restart after Unplanned - Process
+1007,2023-08-25 23:44:02.267715,MCH007,ALARM,Pre-stop alarm: Sensor Error
+1008,2023-08-25 23:44:02.267715,MCH007,STOP,Stop: Sensor Error
+1009,2023-08-26 01:01:25.163477,MCH007,START,Restart after Unplanned - Breakdown
+1012,2023-08-27 15:24:43.750298,MCH007,STOP,Stop: Quality Issue
+1013,2023-08-27 18:12:31.605397,MCH007,START,Restart after Unplanned - Process
+1018,2023-08-31 03:31:52.231781,MCH007,ALARM,Pre-stop alarm: Mechanical Failure
+1019,2023-08-31 03:31:52.231781,MCH007,STOP,Stop: Mechanical Failure
+1020,2023-08-31 06:13:28.256318,MCH007,START,Restart after Unplanned - Breakdown
+1043,2023-09-06 05:40:33.180314,MCH007,ALARM,Pre-stop alarm: Hydraulic Leak
+1044,2023-09-06 05:40:33.180314,MCH007,STOP,Stop: Hydraulic Leak
+1045,2023-09-06 07:42:46.204818,MCH007,START,Restart after Unplanned - Breakdown
+1046,2023-09-07 13:52:38.420183,MCH007,STOP,Stop: Software Update
+1047,2023-09-07 22:23:17.822376,MCH007,START,Restart after Planned Maintenance
+1071,2023-09-13 08:47:19.492316,MCH007,ALARM,Pre-stop alarm: Other Breakdown
+1072,2023-09-13 08:47:19.492316,MCH007,STOP,Stop: Other Breakdown
+1073,2023-09-13 11:57:48.571906,MCH007,START,Restart after Unplanned - Breakdown
+1106,2023-09-21 21:07:40.470054,MCH007,STOP,Stop: Setup Adjustment
+1107,2023-09-21 21:32:53.287176,MCH007,START,Restart after Changeover
+1170,2023-10-05 14:12:26.381206,MCH007,ALARM,Pre-stop alarm: Other Breakdown
+1171,2023-10-05 14:12:26.381206,MCH007,STOP,Stop: Other Breakdown
+1174,2023-10-05 19:22:54.510978,MCH007,START,Restart after Unplanned - Breakdown
+1198,2023-10-09 19:22:18.464214,MCH007,ALARM,Pre-stop alarm: Hydraulic Leak
+1199,2023-10-09 19:22:18.464214,MCH007,STOP,Stop: Hydraulic Leak
+1200,2023-10-09 21:16:16.579932,MCH007,START,Restart after Unplanned - Breakdown
+1204,2023-10-11 07:43:26.430098,MCH007,STOP,Stop: Quality Issue
+1205,2023-10-11 07:43:54.736089,MCH007,START,Restart after Unplanned - Process
+1235,2023-10-19 17:07:50.335290,MCH007,STOP,Stop: Quality Issue
+1236,2023-10-19 17:56:36.703345,MCH007,START,Restart after Unplanned - Process
+1240,2023-10-20 15:01:09.691824,MCH007,ALARM,Pre-stop alarm: Other Breakdown
+1241,2023-10-20 15:01:09.691824,MCH007,STOP,Stop: Other Breakdown
+1244,2023-10-20 15:41:13.865090,MCH007,START,Restart after Unplanned - Breakdown
+1269,2023-10-27 06:09:15.117511,MCH007,ALARM,Pre-stop alarm: Other Breakdown
+1270,2023-10-27 06:09:15.117511,MCH007,STOP,Stop: Other Breakdown
+1271,2023-10-27 08:56:51.823458,MCH007,START,Restart after Unplanned - Breakdown
+1274,2023-10-28 03:58:47.217318,MCH007,STOP,Stop: Product Changeover
+1275,2023-10-28 04:28:56.428706,MCH007,START,Restart after Changeover
+1283,2023-10-30 16:47:25.217212,MCH007,STOP,Stop: Operator Error
+1284,2023-10-30 18:43:04.857226,MCH007,START,Restart after Unplanned - Process
+1293,2023-11-02 09:22:45.338735,MCH007,ALARM,Pre-stop alarm: Electrical Fault
+1294,2023-11-02 09:22:45.338735,MCH007,STOP,Stop: Electrical Fault
+1295,2023-11-02 14:37:17.980223,MCH007,START,Restart after Unplanned - Breakdown
+1299,2023-11-03 09:00:08.879387,MCH007,STOP,Stop: Quality Issue
+1300,2023-11-03 09:10:31.306213,MCH007,START,Restart after Unplanned - Process
+1301,2023-11-03 22:11:35.534387,MCH007,ALARM,Pre-stop alarm: Mechanical Failure
+1302,2023-11-03 22:11:35.534387,MCH007,STOP,Stop: Mechanical Failure
+1305,2023-11-04 00:43:09.221431,MCH007,START,Restart after Unplanned - Breakdown
+1309,2023-11-04 10:33:16.964953,MCH007,ALARM,Pre-stop alarm: Hydraulic Leak
+1310,2023-11-04 10:33:16.964953,MCH007,STOP,Stop: Hydraulic Leak
+1311,2023-11-04 13:31:04.997938,MCH007,START,Restart after Unplanned - Breakdown
+1370,2023-11-22 04:27:26.430755,MCH007,STOP,Stop: Operator Error
+1371,2023-11-22 05:29:04.885538,MCH007,START,Restart after Unplanned - Process
+1394,2023-11-26 02:37:00.779514,MCH007,STOP,Stop: Operator Error
+1395,2023-11-26 02:39:46.402580,MCH007,START,Restart after Unplanned - Process
+1400,2023-11-28 21:02:16.264981,MCH007,ALARM,Pre-stop alarm: Other Breakdown
+1401,2023-11-28 21:02:16.264981,MCH007,STOP,Stop: Other Breakdown
+1402,2023-11-28 22:46:13.175888,MCH007,START,Restart after Unplanned - Breakdown
+1405,2023-11-29 18:40:48.674506,MCH007,ALARM,Pre-stop alarm: Electrical Fault
+1406,2023-11-29 18:40:48.674506,MCH007,STOP,Stop: Electrical Fault
+1408,2023-11-29 22:06:13.606701,MCH007,START,Restart after Unplanned - Breakdown
+1413,2023-12-01 15:18:51.966800,MCH007,ALARM,Pre-stop alarm: Sensor Error
+1414,2023-12-01 15:18:51.966800,MCH007,STOP,Stop: Sensor Error
+1415,2023-12-01 20:10:55.556848,MCH007,START,Restart after Unplanned - Breakdown
+1419,2023-12-02 21:29:19.043065,MCH007,STOP,Stop: Calibration
+1420,2023-12-03 06:51:25.424531,MCH007,START,Restart after Planned Maintenance
+1490,2023-12-18 08:41:15.013031,MCH007,STOP,Stop: Quality Issue
+1491,2023-12-18 09:16:51.258717,MCH007,START,Restart after Unplanned - Process
+1508,2023-12-23 11:24:40.629826,MCH007,STOP,Stop: Routine Check
+1509,2023-12-23 18:36:48.171795,MCH007,START,Restart after Planned Maintenance
+1513,2023-12-26 01:45:00.146061,MCH007,ALARM,Pre-stop alarm: Sensor Error
+1514,2023-12-26 01:45:00.146061,MCH007,STOP,Stop: Sensor Error
+1515,2023-12-26 08:29:47.811986,MCH007,START,Restart after Unplanned - Breakdown
+1517,2023-12-26 20:53:13.150288,MCH007,ALARM,Pre-stop alarm: Hydraulic Leak
+1518,2023-12-26 20:53:13.150288,MCH007,STOP,Stop: Hydraulic Leak
+1520,2023-12-27 05:13:45.979941,MCH007,START,Restart after Unplanned - Breakdown
+1530,2023-12-28 19:15:01.571144,MCH007,ALARM,Pre-stop alarm: Mechanical Failure
+1531,2023-12-28 19:15:01.571144,MCH007,STOP,Stop: Mechanical Failure
+1532,2023-12-28 19:35:31.216198,MCH007,START,Restart after Unplanned - Breakdown
+4,2023-01-01 07:36:00.000000,MCH008,START,Initial startup
+42,2023-01-05 19:12:26.324870,MCH008,STOP,Stop: Product Changeover
+43,2023-01-05 19:46:31.196180,MCH008,START,Restart after Changeover
+52,2023-01-06 21:05:44.425608,MCH008,ALARM,Pre-stop alarm: Mechanical Failure
+53,2023-01-06 21:05:44.425608,MCH008,STOP,Stop: Mechanical Failure
+54,2023-01-07 01:04:56.532579,MCH008,START,Restart after Unplanned - Breakdown
+81,2023-01-22 11:09:43.806037,MCH008,STOP,Stop: Operator Error
+82,2023-01-22 12:47:13.665691,MCH008,START,Restart after Unplanned - Process
+83,2023-01-22 23:13:02.629597,MCH008,STOP,Stop: Product Changeover
+84,2023-01-22 23:47:33.560841,MCH008,START,Restart after Changeover
+99,2023-01-24 22:15:01.891430,MCH008,STOP,Stop: Material Shortage
+100,2023-01-25 00:37:14.140920,MCH008,START,Restart after Unplanned - Process
+126,2023-02-01 09:55:50.481682,MCH008,ALARM,Pre-stop alarm: Sensor Error
+127,2023-02-01 09:55:50.481682,MCH008,STOP,Stop: Sensor Error
+128,2023-02-01 11:28:56.288922,MCH008,START,Restart after Unplanned - Breakdown
+140,2023-02-04 01:36:04.996203,MCH008,ALARM,Pre-stop alarm: Sensor Error
+141,2023-02-04 01:36:04.996203,MCH008,STOP,Stop: Sensor Error
+144,2023-02-04 04:01:17.366611,MCH008,START,Restart after Unplanned - Breakdown
+184,2023-02-13 19:22:42.138039,MCH008,STOP,Stop: Setup Adjustment
+185,2023-02-13 19:51:55.304991,MCH008,START,Restart after Changeover
+186,2023-02-14 07:19:26.296272,MCH008,STOP,Stop: Operator Error
+187,2023-02-14 07:20:48.376642,MCH008,START,Restart after Unplanned - Process
+191,2023-02-15 04:16:46.976310,MCH008,ALARM,Pre-stop alarm: Electrical Fault
+192,2023-02-15 04:16:46.976310,MCH008,STOP,Stop: Electrical Fault
+195,2023-02-15 08:13:01.551362,MCH008,START,Restart after Unplanned - Breakdown
+229,2023-02-23 17:28:22.751580,MCH008,ALARM,Pre-stop alarm: Electrical Fault
+230,2023-02-23 17:28:22.751580,MCH008,STOP,Stop: Electrical Fault
+233,2023-02-24 06:03:49.302838,MCH008,START,Restart after Unplanned - Breakdown
+235,2023-02-24 14:38:57.408249,MCH008,STOP,Stop: Setup Adjustment
+236,2023-02-24 15:08:26.942557,MCH008,START,Restart after Changeover
+273,2023-03-06 20:32:38.444305,MCH008,ALARM,Pre-stop alarm: Hydraulic Leak
+274,2023-03-06 20:32:38.444305,MCH008,STOP,Stop: Hydraulic Leak
+275,2023-03-07 02:07:19.142302,MCH008,START,Restart after Unplanned - Breakdown
+279,2023-03-08 08:03:51.895934,MCH008,ALARM,Pre-stop alarm: Electrical Fault
+280,2023-03-08 08:03:51.895934,MCH008,STOP,Stop: Electrical Fault
+281,2023-03-08 09:21:07.042324,MCH008,START,Restart after Unplanned - Breakdown
+314,2023-03-15 19:50:05.087615,MCH008,STOP,Stop: Tooling Issue
+315,2023-03-15 20:14:02.236566,MCH008,START,Restart after Unplanned - Process
+328,2023-03-19 10:37:28.958726,MCH008,ALARM,Pre-stop alarm: Other Breakdown
+329,2023-03-19 10:37:28.958726,MCH008,STOP,Stop: Other Breakdown
+330,2023-03-19 12:52:52.727613,MCH008,START,Restart after Unplanned - Breakdown
+337,2023-03-20 18:49:09.519853,MCH008,ALARM,Pre-stop alarm: Sensor Error
+338,2023-03-20 18:49:09.519853,MCH008,STOP,Stop: Sensor Error
+339,2023-03-20 22:21:36.416584,MCH008,START,Restart after Unplanned - Breakdown
+502,2023-05-02 11:44:11.788441,MCH008,ALARM,Pre-stop alarm: Electrical Fault
+503,2023-05-02 11:44:11.788441,MCH008,STOP,Stop: Electrical Fault
+505,2023-05-02 17:17:21.474858,MCH008,START,Restart after Unplanned - Breakdown
+569,2023-05-18 11:46:00.476687,MCH008,ALARM,Pre-stop alarm: Mechanical Failure
+570,2023-05-18 11:46:00.476687,MCH008,STOP,Stop: Mechanical Failure
+571,2023-05-18 13:55:14.832824,MCH008,START,Restart after Unplanned - Breakdown
+602,2023-05-25 07:46:34.306881,MCH008,ALARM,Pre-stop alarm: Other Breakdown
+603,2023-05-25 07:46:34.306881,MCH008,STOP,Stop: Other Breakdown
+604,2023-05-25 09:21:31.440360,MCH008,START,Restart after Unplanned - Breakdown
+634,2023-06-02 01:37:26.431953,MCH008,ALARM,Pre-stop alarm: Other Breakdown
+635,2023-06-02 01:37:26.431953,MCH008,STOP,Stop: Other Breakdown
+636,2023-06-02 05:22:43.016295,MCH008,START,Restart after Unplanned - Breakdown
+637,2023-06-02 15:45:18.275457,MCH008,ALARM,Pre-stop alarm: Other Breakdown
+638,2023-06-02 15:45:18.275457,MCH008,STOP,Stop: Other Breakdown
+639,2023-06-02 16:04:05.644365,MCH008,START,Restart after Unplanned - Breakdown
+649,2023-06-04 18:59:04.076743,MCH008,STOP,Stop: Product Changeover
+650,2023-06-04 19:31:56.503342,MCH008,START,Restart after Changeover
+696,2023-06-16 04:49:05.505374,MCH008,ALARM,Pre-stop alarm: Other Breakdown
+697,2023-06-16 04:49:05.505374,MCH008,STOP,Stop: Other Breakdown
+698,2023-06-16 10:27:54.191174,MCH008,START,Restart after Unplanned - Breakdown
+736,2023-06-24 01:52:45.632787,MCH008,STOP,Stop: Setup Adjustment
+738,2023-06-24 02:27:33.260527,MCH008,START,Restart after Changeover
+764,2023-07-02 09:36:38.991094,MCH008,STOP,Stop: Operator Error
+765,2023-07-02 10:17:35.248284,MCH008,START,Restart after Unplanned - Process
+793,2023-07-07 15:59:49.494888,MCH008,STOP,Stop: Material Shortage
+794,2023-07-07 16:13:27.295299,MCH008,START,Restart after Unplanned - Process
+797,2023-07-08 18:18:10.662216,MCH008,ALARM,Pre-stop alarm: Sensor Error
+798,2023-07-08 18:18:10.662216,MCH008,STOP,Stop: Sensor Error
+799,2023-07-09 00:16:34.011350,MCH008,START,Restart after Unplanned - Breakdown
+806,2023-07-13 06:45:27.120457,MCH008,ALARM,Pre-stop alarm: Electrical Fault
+807,2023-07-13 06:45:27.120457,MCH008,STOP,Stop: Electrical Fault
+808,2023-07-13 08:45:53.475127,MCH008,START,Restart after Unplanned - Breakdown
+892,2023-08-03 00:13:15.703104,MCH008,STOP,Stop: Setup Adjustment
+893,2023-08-03 00:41:23.924280,MCH008,START,Restart after Changeover
+951,2023-08-15 18:01:59.180418,MCH008,ALARM,Pre-stop alarm: Mechanical Failure
+952,2023-08-15 18:01:59.180418,MCH008,STOP,Stop: Mechanical Failure
+953,2023-08-15 19:41:18.284350,MCH008,START,Restart after Unplanned - Breakdown
+970,2023-08-20 00:10:06.843786,MCH008,STOP,Stop: Quality Issue
+972,2023-08-20 03:28:17.865783,MCH008,START,Restart after Unplanned - Process
+1016,2023-08-30 05:39:07.430159,MCH008,STOP,Stop: Setup Adjustment
+1017,2023-08-30 06:05:35.935072,MCH008,START,Restart after Changeover
+1021,2023-08-31 13:37:27.605505,MCH008,STOP,Stop: Tooling Issue
+1022,2023-08-31 14:17:14.341761,MCH008,START,Restart after Unplanned - Process
+1030,2023-09-04 19:42:06.353130,MCH008,STOP,Stop: Quality Issue
+1031,2023-09-04 20:14:10.819202,MCH008,START,Restart after Unplanned - Process
+1039,2023-09-05 22:55:25.769791,MCH008,ALARM,Pre-stop alarm: Mechanical Failure
+1040,2023-09-05 22:55:25.769791,MCH008,STOP,Stop: Mechanical Failure
+1042,2023-09-06 01:36:35.287655,MCH008,START,Restart after Unplanned - Breakdown
+1051,2023-09-08 08:02:09.681350,MCH008,ALARM,Pre-stop alarm: Mechanical Failure
+1052,2023-09-08 08:02:09.681350,MCH008,STOP,Stop: Mechanical Failure
+1053,2023-09-08 09:23:49.559233,MCH008,START,Restart after Unplanned - Breakdown
+1090,2023-09-19 21:43:32.521539,MCH008,ALARM,Pre-stop alarm: Mechanical Failure
+1091,2023-09-19 21:43:32.521539,MCH008,STOP,Stop: Mechanical Failure
+1092,2023-09-19 22:04:44.424926,MCH008,START,Restart after Unplanned - Breakdown
+1115,2023-09-23 17:03:14.704806,MCH008,ALARM,Pre-stop alarm: Hydraulic Leak
+1116,2023-09-23 17:03:14.704806,MCH008,STOP,Stop: Hydraulic Leak
+1118,2023-09-23 20:10:05.023082,MCH008,START,Restart after Unplanned - Breakdown
+1130,2023-09-25 17:20:35.086068,MCH008,ALARM,Pre-stop alarm: Mechanical Failure
+1131,2023-09-25 17:20:35.086068,MCH008,STOP,Stop: Mechanical Failure
+1134,2023-09-26 04:25:29.728601,MCH008,START,Restart after Unplanned - Breakdown
+1139,2023-09-26 10:23:19.797899,MCH008,ALARM,Pre-stop alarm: Sensor Error
+1140,2023-09-26 10:23:19.797899,MCH008,STOP,Stop: Sensor Error
+1143,2023-09-26 15:12:13.056687,MCH008,START,Restart after Unplanned - Breakdown
+1145,2023-09-27 15:19:52.822912,MCH008,ALARM,Pre-stop alarm: Mechanical Failure
+1146,2023-09-27 15:19:52.822912,MCH008,STOP,Stop: Mechanical Failure
+1150,2023-09-27 19:11:57.282386,MCH008,START,Restart after Unplanned - Breakdown
+1151,2023-09-29 06:41:17.714228,MCH008,ALARM,Pre-stop alarm: Electrical Fault
+1152,2023-09-29 06:41:17.714228,MCH008,STOP,Stop: Electrical Fault
+1155,2023-09-29 13:22:35.555056,MCH008,START,Restart after Unplanned - Breakdown
+1193,2023-10-09 01:35:32.255552,MCH008,ALARM,Pre-stop alarm: Electrical Fault
+1194,2023-10-09 01:35:32.255552,MCH008,STOP,Stop: Electrical Fault
+1195,2023-10-09 02:58:18.338833,MCH008,START,Restart after Unplanned - Breakdown
+1227,2023-10-18 03:26:21.511693,MCH008,ALARM,Pre-stop alarm: Sensor Error
+1228,2023-10-18 03:26:21.511693,MCH008,STOP,Stop: Sensor Error
+1229,2023-10-18 05:07:26.212975,MCH008,START,Restart after Unplanned - Breakdown
+1230,2023-10-18 18:06:28.717855,MCH008,ALARM,Pre-stop alarm: Other Breakdown
+1231,2023-10-18 18:06:28.717855,MCH008,STOP,Stop: Other Breakdown
+1232,2023-10-19 03:31:42.249181,MCH008,START,Restart after Unplanned - Breakdown
+1238,2023-10-20 13:05:26.308399,MCH008,STOP,Stop: Material Shortage
+1239,2023-10-20 13:37:54.358068,MCH008,START,Restart after Unplanned - Process
+1277,2023-10-29 00:52:32.110000,MCH008,ALARM,Pre-stop alarm: Electrical Fault
+1278,2023-10-29 00:52:32.110000,MCH008,STOP,Stop: Electrical Fault
+1281,2023-10-29 06:52:50.111501,MCH008,START,Restart after Unplanned - Breakdown
+1324,2023-11-08 05:13:14.209032,MCH008,STOP,Stop: Tooling Issue
+1325,2023-11-08 05:23:33.969119,MCH008,START,Restart after Unplanned - Process
+1342,2023-11-13 19:01:08.945449,MCH008,STOP,Stop: Tooling Issue
+1343,2023-11-13 19:30:33.173022,MCH008,START,Restart after Unplanned - Process
+1396,2023-11-26 10:48:14.310188,MCH008,STOP,Stop: Setup Adjustment
+1397,2023-11-26 11:20:48.249613,MCH008,START,Restart after Changeover
+1427,2023-12-05 10:14:08.173608,MCH008,ALARM,Pre-stop alarm: Other Breakdown
+1428,2023-12-05 10:14:08.173608,MCH008,STOP,Stop: Other Breakdown
+1432,2023-12-05 18:23:43.792958,MCH008,START,Restart after Unplanned - Breakdown
+1440,2023-12-06 18:52:24.820554,MCH008,STOP,Stop: Operator Error
+1441,2023-12-06 18:53:14.587432,MCH008,START,Restart after Unplanned - Process
+1462,2023-12-11 06:28:42.100279,MCH008,ALARM,Pre-stop alarm: Hydraulic Leak
+1463,2023-12-11 06:28:42.100279,MCH008,STOP,Stop: Hydraulic Leak
+1465,2023-12-11 15:59:12.613598,MCH008,START,Restart after Unplanned - Breakdown
+1468,2023-12-13 12:08:36.843799,MCH008,STOP,Stop: Setup Adjustment
+1469,2023-12-13 12:40:43.462586,MCH008,START,Restart after Changeover
+1488,2023-12-17 09:54:14.914476,MCH008,STOP,Stop: Material Shortage
+1489,2023-12-17 10:02:36.316151,MCH008,START,Restart after Unplanned - Process
+6,2023-01-01 07:41:00.000000,MCH009,START,Initial startup
+11,2023-01-01 17:50:40.546539,MCH009,ALARM,Pre-stop alarm: Electrical Fault
+12,2023-01-01 17:50:40.546539,MCH009,STOP,Stop: Electrical Fault
+14,2023-01-01 23:43:50.458411,MCH009,START,Restart after Unplanned - Breakdown
+55,2023-01-07 06:57:55.902894,MCH009,STOP,Stop: Tooling Issue
+56,2023-01-07 07:00:44.904968,MCH009,START,Restart after Unplanned - Process
+70,2023-01-12 16:18:54.727148,MCH009,ALARM,Pre-stop alarm: Electrical Fault
+71,2023-01-12 16:18:54.727148,MCH009,STOP,Stop: Electrical Fault
+72,2023-01-13 03:31:10.460918,MCH009,START,Restart after Unplanned - Breakdown
+90,2023-01-23 20:47:59.590933,MCH009,STOP,Stop: Setup Adjustment
+91,2023-01-23 21:23:04.995127,MCH009,START,Restart after Changeover
+171,2023-02-09 13:53:51.916316,MCH009,ALARM,Pre-stop alarm: Sensor Error
+172,2023-02-09 13:53:51.916316,MCH009,STOP,Stop: Sensor Error
+173,2023-02-09 15:24:50.793261,MCH009,START,Restart after Unplanned - Breakdown
+196,2023-02-15 10:32:13.811697,MCH009,ALARM,Pre-stop alarm: Other Breakdown
+197,2023-02-15 10:32:13.811697,MCH009,STOP,Stop: Other Breakdown
+198,2023-02-15 12:13:09.588820,MCH009,START,Restart after Unplanned - Breakdown
+208,2023-02-18 07:14:15.861823,MCH009,STOP,Stop: Quality Issue
+209,2023-02-18 07:38:54.150686,MCH009,START,Restart after Unplanned - Process
+296,2023-03-11 15:12:15.456451,MCH009,ALARM,Pre-stop alarm: Hydraulic Leak
+297,2023-03-11 15:12:15.456451,MCH009,STOP,Stop: Hydraulic Leak
+298,2023-03-11 15:23:30.186217,MCH009,START,Restart after Unplanned - Breakdown
+324,2023-03-18 19:35:52.960105,MCH009,STOP,Stop: Product Changeover
+325,2023-03-18 20:11:33.003134,MCH009,START,Restart after Changeover
+334,2023-03-20 16:59:20.091629,MCH009,ALARM,Pre-stop alarm: Other Breakdown
+335,2023-03-20 16:59:20.091629,MCH009,STOP,Stop: Other Breakdown
+336,2023-03-20 17:28:41.292055,MCH009,START,Restart after Unplanned - Breakdown
+364,2023-03-24 20:07:15.456758,MCH009,ALARM,Pre-stop alarm: Sensor Error
+365,2023-03-24 20:07:15.456758,MCH009,STOP,Stop: Sensor Error
+366,2023-03-24 20:56:47.008197,MCH009,START,Restart after Unplanned - Breakdown
+371,2023-03-26 08:53:39.529382,MCH009,ALARM,Pre-stop alarm: Hydraulic Leak
+372,2023-03-26 08:53:39.529382,MCH009,STOP,Stop: Hydraulic Leak
+373,2023-03-26 09:37:06.710124,MCH009,START,Restart after Unplanned - Breakdown
+375,2023-03-27 12:03:22.775150,MCH009,ALARM,Pre-stop alarm: Mechanical Failure
+376,2023-03-27 12:03:22.775150,MCH009,STOP,Stop: Mechanical Failure
+377,2023-03-27 15:10:25.044243,MCH009,START,Restart after Unplanned - Breakdown
+398,2023-04-07 23:25:00.259499,MCH009,STOP,Stop: Tooling Issue
+399,2023-04-07 23:34:40.136808,MCH009,START,Restart after Unplanned - Process
+412,2023-04-11 18:33:23.867169,MCH009,ALARM,Pre-stop alarm: Other Breakdown
+413,2023-04-11 18:33:23.867169,MCH009,STOP,Stop: Other Breakdown
+416,2023-04-12 01:03:56.447138,MCH009,START,Restart after Unplanned - Breakdown
+423,2023-04-14 07:56:31.936879,MCH009,ALARM,Pre-stop alarm: Hydraulic Leak
+424,2023-04-14 07:56:31.936879,MCH009,STOP,Stop: Hydraulic Leak
+428,2023-04-14 14:45:05.189719,MCH009,START,Restart after Unplanned - Breakdown
+429,2023-04-16 09:41:09.649722,MCH009,ALARM,Pre-stop alarm: Sensor Error
+430,2023-04-16 09:41:09.649722,MCH009,STOP,Stop: Sensor Error
+431,2023-04-16 12:52:30.490548,MCH009,START,Restart after Unplanned - Breakdown
+432,2023-04-16 13:01:45.488178,MCH009,ALARM,Pre-stop alarm: Hydraulic Leak
+433,2023-04-16 13:01:45.488178,MCH009,STOP,Stop: Hydraulic Leak
+437,2023-04-16 17:12:39.559036,MCH009,START,Restart after Unplanned - Breakdown
+449,2023-04-19 18:28:28.779248,MCH009,ALARM,Pre-stop alarm: Mechanical Failure
+450,2023-04-19 18:28:28.779248,MCH009,STOP,Stop: Mechanical Failure
+451,2023-04-19 19:54:22.352299,MCH009,START,Restart after Unplanned - Breakdown
+507,2023-05-03 11:35:39.290287,MCH009,ALARM,Pre-stop alarm: Other Breakdown
+508,2023-05-03 11:35:39.290287,MCH009,STOP,Stop: Other Breakdown
+509,2023-05-03 12:35:02.706598,MCH009,START,Restart after Unplanned - Breakdown
+583,2023-05-23 07:09:49.622106,MCH009,STOP,Stop: Product Changeover
+584,2023-05-23 07:35:16.940359,MCH009,START,Restart after Changeover
+591,2023-05-24 07:26:56.680148,MCH009,STOP,Stop: Setup Adjustment
+592,2023-05-24 07:51:55.923383,MCH009,START,Restart after Changeover
+617,2023-05-28 04:41:27.777673,MCH009,STOP,Stop: Quality Issue
+619,2023-05-28 05:07:25.516250,MCH009,START,Restart after Unplanned - Process
+630,2023-06-01 10:57:38.253023,MCH009,STOP,Stop: Calibration
+631,2023-06-01 17:57:30.029511,MCH009,START,Restart after Planned Maintenance
+651,2023-06-04 23:54:20.922880,MCH009,ALARM,Pre-stop alarm: Hydraulic Leak
+652,2023-06-04 23:54:20.922880,MCH009,STOP,Stop: Hydraulic Leak
+656,2023-06-05 07:00:33.721029,MCH009,START,Restart after Unplanned - Breakdown
+664,2023-06-07 23:53:39.326741,MCH009,ALARM,Pre-stop alarm: Hydraulic Leak
+665,2023-06-07 23:53:39.326741,MCH009,STOP,Stop: Hydraulic Leak
+668,2023-06-08 01:14:31.128549,MCH009,START,Restart after Unplanned - Breakdown
+673,2023-06-08 14:42:54.955214,MCH009,ALARM,Pre-stop alarm: Mechanical Failure
+674,2023-06-08 14:42:54.955214,MCH009,STOP,Stop: Mechanical Failure
+678,2023-06-08 21:07:36.168471,MCH009,START,Restart after Unplanned - Breakdown
+689,2023-06-12 11:28:29.673608,MCH009,STOP,Stop: Setup Adjustment
+690,2023-06-12 11:55:26.729441,MCH009,START,Restart after Changeover
+693,2023-06-14 05:20:38.437384,MCH009,ALARM,Pre-stop alarm: Other Breakdown
+694,2023-06-14 05:20:38.437384,MCH009,STOP,Stop: Other Breakdown
+695,2023-06-14 08:05:17.560192,MCH009,START,Restart after Unplanned - Breakdown
+709,2023-06-19 04:40:21.604553,MCH009,STOP,Stop: Product Changeover
+710,2023-06-19 05:11:55.477260,MCH009,START,Restart after Changeover
+815,2023-07-14 08:07:51.603738,MCH009,STOP,Stop: Quality Issue
+816,2023-07-14 08:36:13.788737,MCH009,START,Restart after Unplanned - Process
+823,2023-07-18 19:51:16.264751,MCH009,ALARM,Pre-stop alarm: Mechanical Failure
+824,2023-07-18 19:51:16.264751,MCH009,STOP,Stop: Mechanical Failure
+828,2023-07-18 21:16:09.301849,MCH009,START,Restart after Unplanned - Breakdown
+908,2023-08-07 09:18:06.228071,MCH009,STOP,Stop: Product Changeover
+909,2023-08-07 09:48:03.988639,MCH009,START,Restart after Changeover
+966,2023-08-19 22:56:59.971266,MCH009,STOP,Stop: Setup Adjustment
+967,2023-08-19 23:30:11.581270,MCH009,START,Restart after Changeover
+977,2023-08-20 14:59:17.152485,MCH009,ALARM,Pre-stop alarm: Electrical Fault
+978,2023-08-20 14:59:17.152485,MCH009,STOP,Stop: Electrical Fault
+979,2023-08-20 15:10:30.055338,MCH009,START,Restart after Unplanned - Breakdown
+980,2023-08-21 02:32:43.417621,MCH009,STOP,Stop: Routine Check
+983,2023-08-21 10:22:36.585111,MCH009,START,Restart after Planned Maintenance
+995,2023-08-23 18:42:44.685677,MCH009,STOP,Stop: Quality Issue
+996,2023-08-23 19:07:35.224697,MCH009,START,Restart after Unplanned - Process
+997,2023-08-23 22:40:44.430581,MCH009,ALARM,Pre-stop alarm: Mechanical Failure
+998,2023-08-23 22:40:44.430581,MCH009,STOP,Stop: Mechanical Failure
+999,2023-08-23 22:45:39.605855,MCH009,START,Restart after Unplanned - Breakdown
+1057,2023-09-09 16:25:48.678750,MCH009,ALARM,Pre-stop alarm: Sensor Error
+1058,2023-09-09 16:25:48.678750,MCH009,STOP,Stop: Sensor Error
+1059,2023-09-09 17:07:05.444460,MCH009,START,Restart after Unplanned - Breakdown
+1093,2023-09-20 12:04:23.678574,MCH009,STOP,Stop: Tooling Issue
+1094,2023-09-20 14:08:48.916149,MCH009,START,Restart after Unplanned - Process
+1101,2023-09-21 12:15:52.466512,MCH009,STOP,Stop: Setup Adjustment
+1102,2023-09-21 12:44:12.050500,MCH009,START,Restart after Changeover
+1122,2023-09-24 07:22:09.762922,MCH009,ALARM,Pre-stop alarm: Sensor Error
+1123,2023-09-24 07:22:09.762922,MCH009,STOP,Stop: Sensor Error
+1124,2023-09-24 11:18:20.842219,MCH009,START,Restart after Unplanned - Breakdown
+1127,2023-09-25 00:55:45.870649,MCH009,STOP,Stop: Product Changeover
+1128,2023-09-25 01:29:39.761311,MCH009,START,Restart after Changeover
+1137,2023-09-26 09:26:03.723507,MCH009,ALARM,Pre-stop alarm: Other Breakdown
+1138,2023-09-26 09:26:03.723507,MCH009,STOP,Stop: Other Breakdown
+1144,2023-09-26 22:55:38.499762,MCH009,START,Restart after Unplanned - Breakdown
+1147,2023-09-27 18:43:37.897059,MCH009,ALARM,Pre-stop alarm: Sensor Error
+1148,2023-09-27 18:43:37.897059,MCH009,STOP,Stop: Sensor Error
+1149,2023-09-27 18:46:40.875309,MCH009,START,Restart after Unplanned - Breakdown
+1196,2023-10-09 14:24:19.186962,MCH009,STOP,Stop: Material Shortage
+1197,2023-10-09 14:48:15.446414,MCH009,START,Restart after Unplanned - Process
+1214,2023-10-14 15:37:29.670631,MCH009,ALARM,Pre-stop alarm: Electrical Fault
+1215,2023-10-14 15:37:29.670631,MCH009,STOP,Stop: Electrical Fault
+1216,2023-10-14 17:33:43.981488,MCH009,START,Restart after Unplanned - Breakdown
+1225,2023-10-17 19:26:35.331747,MCH009,STOP,Stop: Setup Adjustment
+1226,2023-10-17 19:51:16.687172,MCH009,START,Restart after Changeover
+1248,2023-10-22 14:57:15.467188,MCH009,ALARM,Pre-stop alarm: Electrical Fault
+1249,2023-10-22 14:57:15.467188,MCH009,STOP,Stop: Electrical Fault
+1250,2023-10-22 19:11:51.520324,MCH009,START,Restart after Unplanned - Breakdown
+1256,2023-10-25 05:43:43.753417,MCH009,ALARM,Pre-stop alarm: Hydraulic Leak
+1257,2023-10-25 05:43:43.753417,MCH009,STOP,Stop: Hydraulic Leak
+1258,2023-10-25 12:05:41.821410,MCH009,START,Restart after Unplanned - Breakdown
+1259,2023-10-25 14:09:58.049329,MCH009,ALARM,Pre-stop alarm: Sensor Error
+1260,2023-10-25 14:09:58.049329,MCH009,STOP,Stop: Sensor Error
+1261,2023-10-25 14:46:01.718164,MCH009,START,Restart after Unplanned - Breakdown
+1262,2023-10-25 20:27:31.550261,MCH009,ALARM,Pre-stop alarm: Other Breakdown
+1263,2023-10-25 20:27:31.550261,MCH009,STOP,Stop: Other Breakdown
+1264,2023-10-25 22:46:45.499303,MCH009,START,Restart after Unplanned - Breakdown
+1267,2023-10-26 06:47:44.451651,MCH009,STOP,Stop: Quality Issue
+1268,2023-10-26 06:48:30.467536,MCH009,START,Restart after Unplanned - Process
+1272,2023-10-28 03:28:26.503880,MCH009,ALARM,Pre-stop alarm: Mechanical Failure
+1273,2023-10-28 03:28:26.503880,MCH009,STOP,Stop: Mechanical Failure
+1276,2023-10-28 07:03:27.170015,MCH009,START,Restart after Unplanned - Breakdown
+1291,2023-11-01 23:38:17.393327,MCH009,STOP,Stop: Setup Adjustment
+1292,2023-11-02 00:05:17.545079,MCH009,START,Restart after Changeover
+1303,2023-11-03 23:07:38.525389,MCH009,ALARM,Pre-stop alarm: Electrical Fault
+1304,2023-11-03 23:07:38.525389,MCH009,STOP,Stop: Electrical Fault
+1306,2023-11-04 02:18:34.852677,MCH009,START,Restart after Unplanned - Breakdown
+1326,2023-11-08 20:41:07.018898,MCH009,STOP,Stop: Setup Adjustment
+1327,2023-11-08 21:15:45.608952,MCH009,START,Restart after Changeover
+1357,2023-11-19 04:26:20.766238,MCH009,ALARM,Pre-stop alarm: Other Breakdown
+1358,2023-11-19 04:26:20.766238,MCH009,STOP,Stop: Other Breakdown
+1359,2023-11-19 08:01:31.650355,MCH009,START,Restart after Unplanned - Breakdown
+1367,2023-11-21 03:40:35.562865,MCH009,ALARM,Pre-stop alarm: Other Breakdown
+1368,2023-11-21 03:40:35.562865,MCH009,STOP,Stop: Other Breakdown
+1369,2023-11-21 04:38:06.019511,MCH009,START,Restart after Unplanned - Breakdown
+1381,2023-11-23 13:22:25.518286,MCH009,ALARM,Pre-stop alarm: Sensor Error
+1382,2023-11-23 13:22:25.518286,MCH009,STOP,Stop: Sensor Error
+1383,2023-11-23 16:52:55.622860,MCH009,START,Restart after Unplanned - Breakdown
+1403,2023-11-29 08:28:52.291507,MCH009,STOP,Stop: Product Changeover
+1404,2023-11-29 08:57:59.548246,MCH009,START,Restart after Changeover
+1423,2023-12-05 06:58:12.915047,MCH009,STOP,Stop: Operator Error
+1424,2023-12-05 08:34:03.548003,MCH009,START,Restart after Unplanned - Process
+1445,2023-12-07 04:49:07.105662,MCH009,ALARM,Pre-stop alarm: Electrical Fault
+1446,2023-12-07 04:49:07.105662,MCH009,STOP,Stop: Electrical Fault
+1447,2023-12-07 09:59:34.888060,MCH009,START,Restart after Unplanned - Breakdown
+1454,2023-12-09 22:58:49.204386,MCH009,ALARM,Pre-stop alarm: Mechanical Failure
+1455,2023-12-09 22:58:49.204386,MCH009,STOP,Stop: Mechanical Failure
+1456,2023-12-09 23:56:54.402872,MCH009,START,Restart after Unplanned - Breakdown
+1483,2023-12-17 02:14:01.089071,MCH009,ALARM,Pre-stop alarm: Sensor Error
+1484,2023-12-17 02:14:01.089071,MCH009,STOP,Stop: Sensor Error
+1485,2023-12-17 05:20:42.661769,MCH009,START,Restart after Unplanned - Breakdown
+1492,2023-12-18 21:06:01.007263,MCH009,ALARM,Pre-stop alarm: Electrical Fault
+1493,2023-12-18 21:06:01.007263,MCH009,STOP,Stop: Electrical Fault
+1496,2023-12-19 01:49:25.559296,MCH009,START,Restart after Unplanned - Breakdown
+5,2023-01-01 07:39:00.000000,MCH010,START,Initial startup
+37,2023-01-05 07:47:56.329400,MCH010,STOP,Stop: Software Update
+39,2023-01-05 15:39:20.565345,MCH010,START,Restart after Planned Maintenance
+88,2023-01-23 18:41:32.215283,MCH010,ALARM,Pre-stop alarm: Hydraulic Leak
+89,2023-01-23 18:41:32.215283,MCH010,STOP,Stop: Hydraulic Leak
+96,2023-01-24 03:28:07.035735,MCH010,START,Restart after Unplanned - Breakdown
+104,2023-01-25 14:05:14.161738,MCH010,ALARM,Pre-stop alarm: Other Breakdown
+105,2023-01-25 14:05:14.161738,MCH010,STOP,Stop: Other Breakdown
+106,2023-01-25 18:47:25.228870,MCH010,START,Restart after Unplanned - Breakdown
+129,2023-02-02 02:45:04.199995,MCH010,ALARM,Pre-stop alarm: Sensor Error
+130,2023-02-02 02:45:04.199995,MCH010,STOP,Stop: Sensor Error
+131,2023-02-02 10:02:01.666919,MCH010,START,Restart after Unplanned - Breakdown
+231,2023-02-23 23:13:31.344683,MCH010,ALARM,Pre-stop alarm: Hydraulic Leak
+232,2023-02-23 23:13:31.344683,MCH010,STOP,Stop: Hydraulic Leak
+234,2023-02-24 08:47:12.202420,MCH010,START,Restart after Unplanned - Breakdown
+283,2023-03-09 00:18:08.744998,MCH010,ALARM,Pre-stop alarm: Mechanical Failure
+284,2023-03-09 00:18:08.744998,MCH010,STOP,Stop: Mechanical Failure
+285,2023-03-09 03:28:25.606786,MCH010,START,Restart after Unplanned - Breakdown
+294,2023-03-10 22:59:44.797429,MCH010,STOP,Stop: Calibration
+295,2023-03-11 06:10:06.532782,MCH010,START,Restart after Planned Maintenance
+352,2023-03-22 03:37:42.884453,MCH010,STOP,Stop: Setup Adjustment
+353,2023-03-22 04:11:45.602344,MCH010,START,Restart after Changeover
+409,2023-04-10 19:29:10.421250,MCH010,ALARM,Pre-stop alarm: Sensor Error
+410,2023-04-10 19:29:10.421250,MCH010,STOP,Stop: Sensor Error
+411,2023-04-10 22:16:20.546196,MCH010,START,Restart after Unplanned - Breakdown
+434,2023-04-16 13:07:31.434699,MCH010,ALARM,Pre-stop alarm: Other Breakdown
+435,2023-04-16 13:07:31.434699,MCH010,STOP,Stop: Other Breakdown
+436,2023-04-16 14:10:57.855472,MCH010,START,Restart after Unplanned - Breakdown
+452,2023-04-21 05:42:01.172755,MCH010,STOP,Stop: Setup Adjustment
+453,2023-04-21 06:15:58.820538,MCH010,START,Restart after Changeover
+476,2023-04-25 11:55:35.865089,MCH010,ALARM,Pre-stop alarm: Other Breakdown
+477,2023-04-25 11:55:35.865089,MCH010,STOP,Stop: Other Breakdown
+479,2023-04-25 21:17:13.273702,MCH010,START,Restart after Unplanned - Breakdown
+483,2023-04-29 06:30:33.693459,MCH010,ALARM,Pre-stop alarm: Other Breakdown
+484,2023-04-29 06:30:33.693459,MCH010,STOP,Stop: Other Breakdown
+485,2023-04-29 18:29:35.368694,MCH010,START,Restart after Unplanned - Breakdown
+522,2023-05-05 16:17:44.126856,MCH010,ALARM,Pre-stop alarm: Electrical Fault
+523,2023-05-05 16:17:44.126856,MCH010,STOP,Stop: Electrical Fault
+524,2023-05-05 16:47:50.018579,MCH010,START,Restart after Unplanned - Breakdown
+563,2023-05-17 06:36:48.583070,MCH010,STOP,Stop: Product Changeover
+564,2023-05-17 07:08:45.569607,MCH010,START,Restart after Changeover
+574,2023-05-20 20:26:30.335674,MCH010,ALARM,Pre-stop alarm: Mechanical Failure
+575,2023-05-20 20:26:30.335674,MCH010,STOP,Stop: Mechanical Failure
+576,2023-05-21 03:35:35.743230,MCH010,START,Restart after Unplanned - Breakdown
+643,2023-06-03 23:46:49.267727,MCH010,ALARM,Pre-stop alarm: Hydraulic Leak
+644,2023-06-03 23:46:49.267727,MCH010,STOP,Stop: Hydraulic Leak
+645,2023-06-04 07:03:37.448332,MCH010,START,Restart after Unplanned - Breakdown
+699,2023-06-16 12:18:25.954608,MCH010,STOP,Stop: Quality Issue
+700,2023-06-16 13:41:57.668026,MCH010,START,Restart after Unplanned - Process
+713,2023-06-19 14:11:20.970614,MCH010,ALARM,Pre-stop alarm: Hydraulic Leak
+714,2023-06-19 14:11:20.970614,MCH010,STOP,Stop: Hydraulic Leak
+715,2023-06-19 14:52:25.556039,MCH010,START,Restart after Unplanned - Breakdown
+759,2023-06-30 18:31:38.788686,MCH010,ALARM,Pre-stop alarm: Hydraulic Leak
+760,2023-06-30 18:31:38.788686,MCH010,STOP,Stop: Hydraulic Leak
+761,2023-06-30 18:33:53.207071,MCH010,START,Restart after Unplanned - Breakdown
+786,2023-07-05 19:54:05.526997,MCH010,ALARM,Pre-stop alarm: Sensor Error
+787,2023-07-05 19:54:05.526997,MCH010,STOP,Stop: Sensor Error
+788,2023-07-06 07:00:04.413805,MCH010,START,Restart after Unplanned - Breakdown
+800,2023-07-09 11:44:26.872120,MCH010,ALARM,Pre-stop alarm: Other Breakdown
+801,2023-07-09 11:44:26.872120,MCH010,STOP,Stop: Other Breakdown
+802,2023-07-09 13:59:21.196177,MCH010,START,Restart after Unplanned - Breakdown
+832,2023-07-19 11:56:21.998521,MCH010,ALARM,Pre-stop alarm: Mechanical Failure
+833,2023-07-19 11:56:21.998521,MCH010,STOP,Stop: Mechanical Failure
+834,2023-07-19 12:30:21.571984,MCH010,START,Restart after Unplanned - Breakdown
+859,2023-07-22 18:27:39.410336,MCH010,ALARM,Pre-stop alarm: Hydraulic Leak
+860,2023-07-22 18:27:39.410336,MCH010,STOP,Stop: Hydraulic Leak
+861,2023-07-23 00:02:44.719097,MCH010,START,Restart after Unplanned - Breakdown
+877,2023-07-27 00:08:47.274627,MCH010,ALARM,Pre-stop alarm: Electrical Fault
+878,2023-07-27 00:08:47.274627,MCH010,STOP,Stop: Electrical Fault
+880,2023-07-27 02:47:17.356935,MCH010,START,Restart after Unplanned - Breakdown
+881,2023-07-27 13:05:54.782633,MCH010,ALARM,Pre-stop alarm: Hydraulic Leak
+882,2023-07-27 13:05:54.782633,MCH010,STOP,Stop: Hydraulic Leak
+883,2023-07-27 15:03:12.969065,MCH010,START,Restart after Unplanned - Breakdown
+884,2023-07-28 22:59:41.782524,MCH010,ALARM,Pre-stop alarm: Sensor Error
+885,2023-07-28 22:59:41.782524,MCH010,STOP,Stop: Sensor Error
+886,2023-07-29 02:15:36.140795,MCH010,START,Restart after Unplanned - Breakdown
+887,2023-08-01 15:45:34.343629,MCH010,STOP,Stop: Operator Error
+888,2023-08-01 18:18:12.925645,MCH010,START,Restart after Unplanned - Process
+905,2023-08-06 02:18:55.469844,MCH010,ALARM,Pre-stop alarm: Hydraulic Leak
+906,2023-08-06 02:18:55.469844,MCH010,STOP,Stop: Hydraulic Leak
+907,2023-08-06 04:53:01.196231,MCH010,START,Restart after Unplanned - Breakdown
+918,2023-08-09 07:31:47.036386,MCH010,ALARM,Pre-stop alarm: Hydraulic Leak
+919,2023-08-09 07:31:47.036386,MCH010,STOP,Stop: Hydraulic Leak
+920,2023-08-09 07:46:25.664805,MCH010,START,Restart after Unplanned - Breakdown
+928,2023-08-11 02:58:15.432469,MCH010,ALARM,Pre-stop alarm: Sensor Error
+929,2023-08-11 02:58:15.432469,MCH010,STOP,Stop: Sensor Error
+935,2023-08-11 09:32:30.723390,MCH010,START,Restart after Unplanned - Breakdown
+940,2023-08-13 02:06:11.742441,MCH010,STOP,Stop: Material Shortage
+941,2023-08-13 02:25:51.284276,MCH010,START,Restart after Unplanned - Process
+944,2023-08-14 06:23:51.474305,MCH010,STOP,Stop: Product Changeover
+945,2023-08-14 06:49:11.425562,MCH010,START,Restart after Changeover
+956,2023-08-16 21:09:21.708169,MCH010,ALARM,Pre-stop alarm: Electrical Fault
+957,2023-08-16 21:09:21.708169,MCH010,STOP,Stop: Electrical Fault
+958,2023-08-17 00:58:36.574340,MCH010,START,Restart after Unplanned - Breakdown
+959,2023-08-17 04:33:32.838789,MCH010,ALARM,Pre-stop alarm: Mechanical Failure
+960,2023-08-17 04:33:32.838789,MCH010,STOP,Stop: Mechanical Failure
+961,2023-08-17 05:37:17.845676,MCH010,START,Restart after Unplanned - Breakdown
+1054,2023-09-09 02:10:42.662057,MCH010,ALARM,Pre-stop alarm: Mechanical Failure
+1055,2023-09-09 02:10:42.662057,MCH010,STOP,Stop: Mechanical Failure
+1056,2023-09-09 07:46:49.641485,MCH010,START,Restart after Unplanned - Breakdown
+1060,2023-09-09 17:12:28.215279,MCH010,ALARM,Pre-stop alarm: Electrical Fault
+1061,2023-09-09 17:12:28.215279,MCH010,STOP,Stop: Electrical Fault
+1062,2023-09-09 18:03:20.649120,MCH010,START,Restart after Unplanned - Breakdown
+1085,2023-09-19 05:00:48.263326,MCH010,ALARM,Pre-stop alarm: Electrical Fault
+1086,2023-09-19 05:00:48.263326,MCH010,STOP,Stop: Electrical Fault
+1087,2023-09-19 06:28:36.890832,MCH010,START,Restart after Unplanned - Breakdown
+1099,2023-09-21 11:05:34.975185,MCH010,STOP,Stop: Tooling Issue
+1100,2023-09-21 11:16:39.107098,MCH010,START,Restart after Unplanned - Process
+1153,2023-09-29 07:28:18.828733,MCH010,STOP,Stop: Setup Adjustment
+1154,2023-09-29 07:56:05.657902,MCH010,START,Restart after Changeover
+1162,2023-10-02 11:41:03.472991,MCH010,STOP,Stop: Quality Issue
+1163,2023-10-02 11:59:22.616199,MCH010,START,Restart after Unplanned - Process
+1347,2023-11-15 16:46:07.037408,MCH010,STOP,Stop: Material Shortage
+1348,2023-11-15 17:39:13.208521,MCH010,START,Restart after Unplanned - Process
+1352,2023-11-18 03:48:28.596953,MCH010,STOP,Stop: Setup Adjustment
+1353,2023-11-18 04:23:59.982893,MCH010,START,Restart after Changeover
+1392,2023-11-25 17:24:55.682036,MCH010,STOP,Stop: Routine Check
+1393,2023-11-26 02:27:37.008851,MCH010,START,Restart after Planned Maintenance
+1407,2023-11-29 20:02:33.346910,MCH010,STOP,Stop: Quality Issue
+1409,2023-11-29 22:28:10.015264,MCH010,START,Restart after Unplanned - Process
+1421,2023-12-05 04:19:30.295063,MCH010,ALARM,Pre-stop alarm: Hydraulic Leak
+1422,2023-12-05 04:19:30.295063,MCH010,STOP,Stop: Hydraulic Leak
+1436,2023-12-06 02:26:31.762434,MCH010,START,Restart after Unplanned - Breakdown
+1470,2023-12-13 21:27:09.701953,MCH010,STOP,Stop: Tooling Issue
+1471,2023-12-13 22:38:41.675691,MCH010,START,Restart after Unplanned - Process
+1497,2023-12-19 02:32:45.063715,MCH010,STOP,Stop: Material Shortage
+1498,2023-12-19 02:35:28.378029,MCH010,START,Restart after Unplanned - Process
