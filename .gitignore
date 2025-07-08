@@ -2,3 +2,4 @@ backend/
 frontend/
 node_modules/
 ML_model/
+simulated_industrial_data_realistic/
