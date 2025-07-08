@@ -7,12 +7,11 @@ import simpy # A lightweight simulation framework might help structure this late
 
 fake = Faker()
 
-# --- Configuration Parameters ---
 NUM_MACHINES = 10
 PROJECT_START_DATE = datetime(2023, 1, 1, 7, 0, 0) # Start at a typical shift time
 PROJECT_END_DATE = datetime(2023, 12, 31, 17, 0, 0) # Simulate data for a year
 
-# Event/State Simulation Parameters
+
 AVG_MTBF_HOURS = 150 # Average Mean Time Between Failures (time machine runs before an unplanned stop)
 AVG_MTTR_HOURS_BREAKDOWN = 4 # Average Mean Time To Repair (unplanned breakdown)
 AVG_MTTR_HOURS_PROCESS = 1 # Average MTTR for process issues
@@ -23,7 +22,7 @@ PROB_STOP_IS_PLANNED_MAINT = 0.05 # Probability a scheduled stop is for planned 
 PROB_BREAKDOWN_IS_PROCESS = 0.3 # Probability an unplanned stop is a process issue vs hard breakdown
 PROB_CHANGEOVER = 0.15 # Probability a stop is a planned changeover (needs specific handling)
 
-# Sensor Simulation Parameters (with more specific trends)
+# Sensor Simulation Parameters 
 SENSOR_PROFILES = {
     'Temperature_Motor': {'base': 60, 'noise_std': 2, 'unit': '°C', 'trend_type': 'linear', 'trend_strength': 8, 'related_downtime_cat': 'Unplanned - Breakdown', 'related_downtime_reason': 'Electrical Fault'},
     'Vibration_Bearing': {'base': 3.0, 'noise_std': 0.8, 'unit': 'g', 'trend_type': 'exponential', 'trend_strength': 1.5, 'related_downtime_cat': 'Unplanned - Breakdown', 'related_downtime_reason': 'Mechanical Failure'},
