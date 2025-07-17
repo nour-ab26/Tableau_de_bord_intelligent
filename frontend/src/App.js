@@ -1,5 +1,12 @@
+import { useCallback } from 'react';
 import React, { useState, useEffect } from 'react';
-import './App.css'; // Pour le style, si vous voulez
+import './App.css'; // Si vous avez un fichier CSS pour un style global
+
+// Importez vos composants de graphiques
+import KpiBarChart from './components/KpiBarChart';
+import DowntimeDoughnutChart from './components/DowntimeDoughnutChart';
+
+// ... (Reste des imports si vous avez d'autres composants) ...
 
 function App() {
   const [kpis, setKpis] = useState([]);
@@ -7,37 +14,65 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Définir l'URL de votre API Flask
+  // États pour les sélecteurs de date et d'équipement
+  const [startDate, setStartDate] = useState('2023-01-01'); // Valeur par défaut
+  const [endDate, setEndDate] = useState('2023-02-01');   // Valeur par défaut (fin janvier)
+  const [selectedEquipment, setSelectedEquipment] = useState(''); // Pour filtrer par équipement (vide pour tous)
+
   const API_BASE_URL = 'http://127.0.0.1:5000/api';
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        // Récupérer les KPIs
-        const kpisResponse = await fetch(`${API_BASE_URL}/kpis?start_date=2023-01-01&end_date=2023-02-01`);
-        if (!kpisResponse.ok) {
-          throw new Error(`Erreur HTTP: ${kpisResponse.status} pour KPIs`);
-        }
-        const kpisData = await kpisResponse.json();
-        setKpis(kpisData);
+  
 
-        // Récupérer les raisons d'arrêt
-        const downtimeResponse = await fetch(`${API_BASE_URL}/downtime-reasons?start_date=2023-01-01&end_date=2023-02-01`);
-        if (!downtimeResponse.ok) {
-          throw new Error(`Erreur HTTP: ${downtimeResponse.status} pour Raisons d'arrêt`);
-        }
-        const downtimeData = await downtimeResponse.json();
-        setDowntimeReasons(downtimeData);
-
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
+  const fetchData = useCallback(async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      // Construire les paramètres de requête
+      const params = new URLSearchParams({
+        start_date: startDate,
+        end_date: endDate,
+      });
+      if (selectedEquipment) {
+        params.append('equipment_id', selectedEquipment);
       }
-    };
 
+      // Récupérer les KPIs
+      const kpisResponse = await fetch(`${API_BASE_URL}/kpis?${params.toString()}`);
+      if (!kpisResponse.ok) {
+        throw new Error(`Erreur HTTP: ${kpisResponse.status} pour KPIs`);
+      }
+      const kpisData = await kpisResponse.json();
+      setKpis(kpisData);
+
+      // Récupérer les raisons d'arrêt
+      const downtimeResponse = await fetch(`${API_BASE_URL}/downtime-reasons?${params.toString()}`);
+      if (!downtimeResponse.ok) {
+        throw new Error(`Erreur HTTP: ${downtimeResponse.status} pour Raisons d'arrêt`);
+      }
+      const downtimeData = await downtimeResponse.json();
+      setDowntimeReasons(downtimeData);
+
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  }, [startDate, endDate, selectedEquipment, API_BASE_URL]);
+
+  useEffect(() => {
     fetchData();
-  }, []); // Le tableau vide signifie que cet effet ne s'exécute qu'une fois après le premier rendu
+  }, [fetchData]); // Re-déclencher la récupération des données quand ces états changent
+
+  // Supposons que vous ayez une liste d'équipements pour le sélecteur
+  // Idéalement, cette liste viendrait aussi d'une API (ex: /api/equipments)
+  const equipmentOptions = [
+    { id: '', name: 'Tous les équipements' }, // Option pour ne pas filtrer
+    { id: 'MCH001', name: 'Machine MCH001' },
+    { id: 'MCH002', name: 'Machine MCH002' },
+    // ... ajoutez tous vos IDs d'équipement ici ...
+    { id: 'MCH010', name: 'Machine MCH010' },
+  ];
+
 
   if (loading) return <div>Chargement des données...</div>;
   if (error) return <div>Erreur: {error}</div>;
@@ -45,36 +80,82 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Tableau de Bord de Production</h1>
+        <h1>Tableau de Bord de Production Intelligent</h1>
       </header>
-      <main>
-        <h2>KPIs par Équipement (Janvier 2023)</h2>
+      <main style={{ padding: '20px' }}>
+        {/* Contrôles de Filtre */}
+        <div style={{ marginBottom: '20px', display: 'flex', gap: '10px', alignItems: 'center' }}>
+          <label>Date de début :
+            <input type="date" value={startDate} onChange={(e) => setStartDate(e.target.value)} />
+          </label>
+          <label>Date de fin :
+            <input type="date" value={endDate} onChange={(e) => setEndDate(e.target.value)} />
+          </label>
+          <label>Équipement :
+            <select value={selectedEquipment} onChange={(e) => setSelectedEquipment(e.target.value)}>
+              {equipmentOptions.map(option => (
+                <option key={option.id} value={option.id}>{option.name}</option>
+              ))}
+            </select>
+          </label>
+          <button onClick={fetchData}>Mettre à jour</button> {/* Ajouté pour un contrôle manuel si besoin */}
+        </div>
+
         {kpis.length > 0 ? (
-          <ul>
-            {kpis.map(kpi => (
-              <li key={kpi.equipment_id}>
-                <strong>{kpi.equipment_name} (Line: {kpi.production_line_id})</strong> - OEE: {(kpi.oee * 100).toFixed(2)}%, Disponibilité: {(kpi.availability * 100).toFixed(2)}%, Performance: {(kpi.performance * 100).toFixed(2)}%, Qualité: {(kpi.quality * 100).toFixed(2)}%
-                <br/>
-                Total Produit: {kpi.total_produced}, Arrêts (Heures): {kpi.total_downtime_hours.toFixed(2)}, MTBF (Heures): {kpi.mtbf_hours.toFixed(2)}, MTTR (Heures): {kpi.mttr_hours.toFixed(2)}
-              </li>
-            ))}
-          </ul>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+            {/* Graphique OEE */}
+            <div style={{ border: '1px solid #ccc', padding: '15px' }}>
+                <KpiBarChart
+                  data={kpis}
+                  title="OEE par Équipement"
+                  label="OEE"
+                  valueKey="oee"
+                />
+            </div>
+            {/* Graphique Disponibilité */}
+            <div style={{ border: '1px solid #ccc', padding: '15px' }}>
+                <KpiBarChart
+                  data={kpis}
+                  title="Disponibilité par Équipement"
+                  label="Disponibilité"
+                  valueKey="availability"
+                />
+            </div>
+             {/* Graphique Performance */}
+            <div style={{ border: '1px solid #ccc', padding: '15px' }}>
+                <KpiBarChart
+                  data={kpis}
+                  title="Performance par Équipement"
+                  label="Performance"
+                  valueKey="performance"
+                />
+            </div>
+             {/* Graphique Qualité */}
+            <div style={{ border: '1px solid #ccc', padding: '15px' }}>
+                <KpiBarChart
+                  data={kpis}
+                  title="Qualité par Équipement"
+                  label="Qualité"
+                  valueKey="quality"
+                />
+            </div>
+          </div>
         ) : (
-          <p>Aucun KPI trouvé pour cette période.</p>
+          <p>Aucun KPI trouvé pour la période sélectionnée.</p>
         )}
 
-        <h2>Arrêts par Raison (Janvier 2023)</h2>
+        {/* Graphique des Raisons d'Arrêt */}
         {downtimeReasons.length > 0 ? (
-          <ul>
-            {downtimeReasons.map((reason, index) => (
-              <li key={index}>
-                <strong>{reason.equipment_id}</strong> - {reason.downtime_category} - {reason.downtime_reason}: {reason.incident_count} incidents ({reason.duration_seconds.toFixed(2)} secondes)
-              </li>
-            ))}
-          </ul>
+          <div style={{ marginTop: '30px', border: '1px solid #ccc', padding: '15px', maxWidth: '600px', margin: '30px auto' }}>
+            <DowntimeDoughnutChart
+              data={downtimeReasons}
+              title={`Répartition des Arrêts (${selectedEquipment ? selectedEquipment : 'Tous Équipements'})`}
+            />
+          </div>
         ) : (
-          <p>Aucun arrêt trouvé pour cette période.</p>
+          <p>Aucun arrêt trouvé pour la période sélectionnée.</p>
         )}
+
       </main>
     </div>
   );
