@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 from datetime import timedelta
-from db_connection import get_db_connection 
+from data_processing.db_connection import get_db_connection
+
 
 def get_equipments_data():
     """Récupère les données de la table 'equipments'."""

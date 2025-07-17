@@ -1,6 +1,22 @@
-backend/
-frontend/
 node_modules/
 ML_model/
 simulated_industrial_data_realistic/
 .env/
+
+# Flask stuff:
+instance/
+.webassets-cache
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
