@@ -15,7 +15,7 @@ import os
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 sys.path.append(parent_dir)
 
-from data_processing.kpi_calculator import calculate_all_kpis, count_downtimes_by_reason
+from data_processing.kpi_calculator import calculate_all_kpis, count_downtimes_by_reason, get_downtime_data, get_all_equipment_details
 
 app = Flask(__name__)
 CORS(app) 
@@ -67,6 +67,13 @@ def get_downtime_reasons():
     downtime_reasons_df = count_downtimes_by_reason(downtimes_raw, start_date, end_date, equipment_id)
     return jsonify(downtime_reasons_df.to_dict(orient='records'))
 
+@app.route('/api/equipments', methods=['GET'])
+def get_equipments():
+    """
+    Endpoint pour récupérer la liste de tous les équipements.
+    """
+    equipments_df = get_all_equipment_details()
+    return jsonify(equipments_df.to_dict(orient='records'))
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000) 

@@ -535,6 +535,20 @@ def count_downtimes_by_reason(downtimes_df, start_time, end_time, equipment_id=N
     return downtime_counts
 
 
+def get_all_equipment_details():
+    """Récupère tous les equipment_id et equipment_name."""
+    conn = get_db_connection()
+    if conn:
+        try:
+            df = pd.read_sql("SELECT equipment_id, equipment_name, production_line_id FROM equipments ORDER BY equipment_id", conn)
+            return df
+        except Exception as e:
+            print(f"Erreur lors de la récupération des détails équipements : {e}")
+            return pd.DataFrame()
+        finally:
+            conn.close()
+    return pd.DataFrame()
+
 
 # Exemple d'utilisation : Calculer les KPIs pour Janvier 2023
 if __name__ == "__main__":

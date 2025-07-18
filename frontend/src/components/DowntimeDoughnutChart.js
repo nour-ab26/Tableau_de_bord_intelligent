@@ -1,4 +1,3 @@
-// frontend/src/components/DowntimeDoughnutChart.js
 import React from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import {

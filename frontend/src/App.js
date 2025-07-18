@@ -1,12 +1,11 @@
-import { useCallback } from 'react';
+//import { useCallback } from 'react';
 import React, { useState, useEffect } from 'react';
-import './App.css'; // Si vous avez un fichier CSS pour un style global
+import './App.css'; 
 
 // Importez vos composants de graphiques
 import KpiBarChart from './components/KpiBarChart';
 import DowntimeDoughnutChart from './components/DowntimeDoughnutChart';
 
-// ... (Reste des imports si vous avez d'autres composants) ...
 
 function App() {
   const [kpis, setKpis] = useState([]);
@@ -14,6 +13,8 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  // État pour la liste dynamique des équipements
+  const [equipmentOptions, setEquipmentOptions] = useState([{ id: '', name: 'Tous les équipements' }]);
   // États pour les sélecteurs de date et d'équipement
   const [startDate, setStartDate] = useState('2023-01-01'); // Valeur par défaut
   const [endDate, setEndDate] = useState('2023-02-01');   // Valeur par défaut (fin janvier)
@@ -21,13 +22,28 @@ function App() {
 
   const API_BASE_URL = 'http://127.0.0.1:5000/api';
 
+
+  const fetchEquipmentList = async () => {
+    try {
+      const response = await fetch(`${API_BASE_URL}/equipments`);
+      if (!response.ok) {
+        throw new Error(`Erreur HTTP: ${response.status} pour équipements`);
+      }
+      const data = await response.json();
+      // Mappez les données pour qu'elles correspondent au format {id, name} du sélecteur
+      const options = [{ id: '', name: 'Tous les équipements' }, ...data.map(eq => ({ id: eq.equipment_id, name: eq.equipment_name }))];
+      setEquipmentOptions(options);
+    } catch (err) {
+      console.error("Erreur lors de la récupération de la liste des équipements:", err);
+      // Gérer l'erreur, potentiellement afficher un message à l'utilisateur
+    }
+  };
   
 
-  const fetchData = useCallback(async () => {
+  const fetchData = React.useCallback(async () => {
     setLoading(true);
     setError(null);
     try {
-      // Construire les paramètres de requête
       const params = new URLSearchParams({
         start_date: startDate,
         end_date: endDate,
@@ -36,7 +52,6 @@ function App() {
         params.append('equipment_id', selectedEquipment);
       }
 
-      // Récupérer les KPIs
       const kpisResponse = await fetch(`${API_BASE_URL}/kpis?${params.toString()}`);
       if (!kpisResponse.ok) {
         throw new Error(`Erreur HTTP: ${kpisResponse.status} pour KPIs`);
@@ -44,7 +59,6 @@ function App() {
       const kpisData = await kpisResponse.json();
       setKpis(kpisData);
 
-      // Récupérer les raisons d'arrêt
       const downtimeResponse = await fetch(`${API_BASE_URL}/downtime-reasons?${params.toString()}`);
       if (!downtimeResponse.ok) {
         throw new Error(`Erreur HTTP: ${downtimeResponse.status} pour Raisons d'arrêt`);
@@ -60,18 +74,15 @@ function App() {
   }, [startDate, endDate, selectedEquipment, API_BASE_URL]);
 
   useEffect(() => {
-    fetchData();
-  }, [fetchData]); // Re-déclencher la récupération des données quand ces états changent
+    fetchEquipmentList();
+  }, []);
 
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]); 
   // Supposons que vous ayez une liste d'équipements pour le sélecteur
   // Idéalement, cette liste viendrait aussi d'une API (ex: /api/equipments)
-  const equipmentOptions = [
-    { id: '', name: 'Tous les équipements' }, // Option pour ne pas filtrer
-    { id: 'MCH001', name: 'Machine MCH001' },
-    { id: 'MCH002', name: 'Machine MCH002' },
-    // ... ajoutez tous vos IDs d'équipement ici ...
-    { id: 'MCH010', name: 'Machine MCH010' },
-  ];
+  
 
 
   if (loading) return <div>Chargement des données...</div>;
