@@ -9,10 +9,28 @@ import {
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
+function generateDistinctColors(numColors) {
+    const colors = [];
+    // Utiliser HSL pour varier le "hue" (teinte) de manière équitable
+    for (let i = 0; i < numColors; i++) {
+        const hue = (i * 360 / numColors) % 360; // Distribuer les teintes sur le cercle chromatique
+        colors.push(`hsl(${hue}, 70%, 50%)`); // Saturation moyenne, luminosité moyenne
+    }
+    return colors;
+}
+
 function DowntimeDoughnutChart({ data, title }) {
+  if (!data || data.length === 0) {
+    return <p>Aucune donnée de répartition des arrêts disponible.</p>;
+  }
+
   const labels = data.map(item => `${item.downtime_category} - ${item.downtime_reason}`);
   const durations = data.map(item => item.duration_seconds);
   const totalDuration = durations.reduce((sum, current) => sum + current, 0);
+
+  // Générer les couleurs dynamiquement en fonction du nombre d'éléments
+  const distinctColors = generateDistinctColors(labels.length);
+
 
   const chartData = {
     labels: labels,
@@ -20,18 +38,8 @@ function DowntimeDoughnutChart({ data, title }) {
       {
         label: 'Durée des Arrêts (secondes)',
         data: durations,
-        backgroundColor: [
-          'rgba(255, 99, 132, 0.6)', 'rgba(54, 162, 235, 0.6)', 'rgba(255, 206, 86, 0.6)',
-          'rgba(75, 192, 192, 0.6)', 'rgba(153, 102, 255, 0.6)', 'rgba(255, 159, 64, 0.6)',
-          'rgba(199, 199, 199, 0.6)', 'rgba(83, 102, 255, 0.6)', 'rgba(255, 99, 255, 0.6)',
-          'rgba(255, 159, 64, 0.6)'
-        ],
-        borderColor: [
-          'rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)',
-          'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)',
-          'rgba(199, 199, 199, 1)', 'rgba(83, 102, 255, 1)', 'rgba(255, 99, 255, 1)',
-          'rgba(255, 159, 64, 1)'
-        ],
+        backgroundColor: distinctColors.map(color => color.replace('hsl(', 'hsla(').replace(')', ', 0.7)')), // Avec opacité
+        borderColor: distinctColors.map(color => color.replace('hsl(', 'hsla(').replace(')', ', 1)')), // Couleurs pleines pour la bordure
         borderWidth: 1,
       },
     ],
@@ -39,13 +47,22 @@ function DowntimeDoughnutChart({ data, title }) {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false, // Permet de mieux contrôler la taille
     plugins: {
       legend: {
         position: 'right',
+        labels: {
+          font: {
+            size: 14 // Agrandir la police de la légende
+          }
+        }
       },
       title: {
         display: true,
         text: title,
+        font: {
+          size: 18 // Agrandir la police du titre
+        }
       },
       tooltip: {
         callbacks: {
@@ -59,8 +76,12 @@ function DowntimeDoughnutChart({ data, title }) {
       }
     }
   };
-
-  return <Doughnut data={chartData} options={options} />;
+    // Mettre la hauteur/largeur du conteneur pour que maintainAspectRatio: false fonctionne
+  return (
+    <div style={{ height: '400px', width: '100%' }}> {/* Conteneur pour le graphique */}
+      <Doughnut data={chartData} options={options} />
+    </div>
+  );
 }
 
 export default DowntimeDoughnutChart;

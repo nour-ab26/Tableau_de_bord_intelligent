@@ -10,7 +10,6 @@ import {
   Legend,
 } from 'chart.js';
 
-// Enregistrez les composants Chart.js nécessaires
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -21,13 +20,18 @@ ChartJS.register(
 );
 
 function KpiBarChart({ data, title, label, valueKey }) {
+  // S'assurer que les données sont valides
+  if (!data || data.length === 0) {
+    return <p>Aucune donnée disponible pour {title}.</p>;
+  }
+
   const chartData = {
-    labels: data.map(item => item.equipment_id), // Noms des équipements
+    labels: data.map(item => item.equipment_id),
     datasets: [
       {
         label: label,
-        data: data.map(item => (item[valueKey] * 100).toFixed(2)), // Les KPIs sont des pourcentages (0-1), afficher en 0-100
-        backgroundColor: 'rgba(75, 192, 192, 0.6)',
+        data: data.map(item => (item[valueKey] * 100).toFixed(2)),
+        backgroundColor: 'rgba(75, 192, 192, 0.7)', 
         borderColor: 'rgba(75, 192, 192, 1)',
         borderWidth: 1,
       },
@@ -36,13 +40,22 @@ function KpiBarChart({ data, title, label, valueKey }) {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false, 
     plugins: {
       legend: {
         position: 'top',
+        labels: {
+          font: {
+            size: 14 
+          }
+        }
       },
       title: {
         display: true,
         text: title,
+        font: {
+          size: 18 
+        }
       },
       tooltip: {
         callbacks: {
@@ -53,19 +66,32 @@ function KpiBarChart({ data, title, label, valueKey }) {
       }
     },
     scales: {
+        x: {
+            ticks: {
+                font: {
+                    size: 12 
+                }
+            }
+        },
         y: {
             beginAtZero: true,
-            max: 100, // Les pourcentages vont jusqu'à 100
+            max: 100, 
             ticks: {
                 callback: function(value) {
                     return value + '%';
+                },
+                font: {
+                    size: 12 // Agrandir la police des labels de l'axe Y
                 }
             }
         }
     }
   };
-
-  return <Bar data={chartData} options={options} />;
+  return (
+    <div style={{ height: '350px', width: '100%' }}> {/* Conteneur pour le graphique */}
+      <Bar data={chartData} options={options} />
+    </div>
+  );
 }
 
 export default KpiBarChart;

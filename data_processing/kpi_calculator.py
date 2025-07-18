@@ -549,6 +549,46 @@ def get_all_equipment_details():
             conn.close()
     return pd.DataFrame()
 
+def get_sensor_data(start_time=None, end_time=None, equipment_id=None, sensor_type=None):
+    """
+    Récupère les relevés de capteurs, éventuellement filtrés par temps, équipement et type de capteur.
+    start_time et end_time devraient être des objets datetime Python.
+    """
+    conn = get_db_connection()
+    if conn:
+        try:
+            query = "SELECT timestamp, equipment_id, sensor_type, value, unit FROM sensor_readings"
+            conditions = []
+            params = {}
+
+            if start_time:
+                conditions.append("timestamp >= %(start_time)s")
+                params['start_time'] = start_time
+            if end_time:
+                conditions.append("timestamp <= %(end_time)s")
+                params['end_time'] = end_time
+            if equipment_id:
+                conditions.append("equipment_id = %(equipment_id)s")
+                params['equipment_id'] = equipment_id
+            if sensor_type:
+                conditions.append("sensor_type = %(sensor_type)s")
+                params['sensor_type'] = sensor_type
+
+            if conditions:
+                query += " WHERE " + " AND ".join(conditions)
+
+            query += " ORDER BY timestamp" # Ordonner par temps pour les séries temporelles
+
+            df = pd.read_sql(query, conn, params=params)
+            df['timestamp'] = pd.to_datetime(df['timestamp']) # S'assurer que le timestamp est un objet datetime
+            return df
+        except Exception as e:
+            print(f"Erreur lors de la récupération des données de capteurs : {e}")
+            return pd.DataFrame()
+        finally:
+            conn.close()
+    return pd.DataFrame()
+
 
 # Exemple d'utilisation : Calculer les KPIs pour Janvier 2023
 if __name__ == "__main__":
@@ -590,3 +630,14 @@ if __name__ == "__main__":
     )
     print(f"\nNombre d'arrêts par raison pour {equip_to_analyze} (Semaine du 15 au 22 mars 2023) :")
     print(downtime_counts_single_equip)
+    
+    print("\nTest de récupération des données de capteurs...")
+    start_date_sensor_test = pd.to_datetime('2023-01-01 07:00:00')
+    end_date_sensor_test = pd.to_datetime('2023-01-01 08:00:00') # Une heure de données
+    sensor_data_mch001_temp = get_sensor_data(start_time=start_date_sensor_test, end_time=end_date_sensor_test, equipment_id='MCH001', sensor_type='Temperature_Motor')
+    print(f"Capteur MCH001 Temperature_Motor (premières 5 lignes) :")
+    print(sensor_data_mch001_temp.head())
+
+    sensor_data_all_mch001 = get_sensor_data(start_time=start_date_sensor_test, end_time=end_date_sensor_test, equipment_id='MCH001')
+    print(f"\nTous les capteurs MCH001 (premières 5 lignes) :")
+    print(sensor_data_all_mch001.head())

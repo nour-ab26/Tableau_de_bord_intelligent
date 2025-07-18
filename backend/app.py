@@ -15,7 +15,7 @@ import os
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 sys.path.append(parent_dir)
 
-from data_processing.kpi_calculator import calculate_all_kpis, count_downtimes_by_reason, get_downtime_data, get_all_equipment_details
+from data_processing.kpi_calculator import calculate_all_kpis, count_downtimes_by_reason, get_downtime_data, get_all_equipment_details, get_sensor_data
 
 app = Flask(__name__)
 CORS(app) 
@@ -74,6 +74,30 @@ def get_equipments():
     """
     equipments_df = get_all_equipment_details()
     return jsonify(equipments_df.to_dict(orient='records'))
+
+@app.route('/api/sensor-data', methods=['GET'])
+def api_get_sensor_data():
+    """
+    Endpoint pour récupérer les relevés de capteurs.
+    Paramètres: start_date, end_date (requis), equipment_id, sensor_type (optionnels)
+    """
+    start_date_str = request.args.get('start_date')
+    end_date_str = request.args.get('end_date')
+    equipment_id = request.args.get('equipment_id')
+    sensor_type = request.args.get('sensor_type')
+
+    if not start_date_str or not end_date_str:
+        return jsonify({"error": "Les paramètres start_date et end_date sont requis."}), 400
+
+    try:
+        start_date = datetime.strptime(start_date_str, '%Y-%m-%d %H:%M:%S') # Inclure l'heure
+        end_date = datetime.strptime(end_date_str, '%Y-%m-%d %H:%M:%S')     # Inclure l'heure
+    except ValueError:
+        return jsonify({"error": "Format de date/heure invalide. Utilisez YYYY-MM-DD HH:MM:SS."}), 400
+
+    sensor_df = get_sensor_data(start_date, end_date, equipment_id, sensor_type)
+
+    return jsonify(sensor_df.to_dict(orient='records'))
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000) 
