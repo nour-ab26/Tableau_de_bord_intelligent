@@ -10,7 +10,7 @@ instance/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-
+.vscode/
 
 .env
 .venv
